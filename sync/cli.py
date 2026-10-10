@@ -4,6 +4,7 @@
     python -m sync.cli fetch --refresh-titles  모든 글의 제목·날짜를 목록 페이지로 다시 확인
     python -m sync.cli fetch --no-commit       파일만 바꾸고 커밋은 하지 않음
     python -m sync.cli status                  upstream/ 현황 요약 (네트워크 사용 안 함)
+    python -m sync.cli pull 섹션/slug ...      글 페이지를 리소스까지 받아 local/ 에 보관
 
 존재 여부는 sitemap 만 기준으로 하고, 목록 페이지는 제목·날짜·소개·주제를 채우는 데만 쓴다.
 커밋은 upstream/ 만 대상으로 하며, push 는 하지 않는다.
@@ -157,6 +158,31 @@ def status():
     return 0
 
 
+def pull(targets):
+    """지정한 글(섹션/slug)의 페이지를 리소스까지 받아 local/ 에 보관한다."""
+    from sync import archive
+
+    records = {f"{r['section']}/{r['slug']}": r for r in store.load_all().values()}
+    code = 0
+    for target in targets:
+        rec = records.get(target)
+        if not rec:
+            print(f"{target}: upstream/ 에 없는 글. fetch 를 먼저 했는지, 이름이 맞는지 확인할 것")
+            code = 1
+            continue
+        try:
+            r = archive.archive(rec)
+        except Exception as e:
+            print(f"{target}: 실패 ({e})")
+            code = 1
+            continue
+        print(f"{target}: 저장 {r['path']} · 리소스 새로 받음 {r['downloaded']} · "
+              f"이미 있음 {r['cached']} · 실패 {len(r['failed'])}")
+        for f in r["failed"]:
+            print(f"  ! {f}")
+    return code
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="python -m sync.cli")
     sub = ap.add_subparsers(dest="command", required=True)
@@ -164,7 +190,11 @@ def main(argv=None):
     p.add_argument("--refresh-titles", action="store_true", help="모든 글의 제목·날짜를 다시 확인")
     p.add_argument("--no-commit", action="store_true", help="파일만 바꾸고 커밋하지 않음")
     sub.add_parser("status", help="upstream/ 현황 요약")
+    p = sub.add_parser("pull", help="글 페이지를 리소스까지 받아 local/ 에 보관")
+    p.add_argument("targets", nargs="+", metavar="섹션/slug", help="예: engineering/contextual-retrieval")
     args = ap.parse_args(argv)
+    if args.command == "pull":
+        return pull(args.targets)
     if args.command == "fetch":
         return fetch(args.refresh_titles, not args.no_commit)
     if args.command == "status":
