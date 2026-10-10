@@ -8,21 +8,18 @@ sitemap 은 '지금 원격에 어떤 글이 있는가'의 기준이다.
 """
 
 import fnmatch
-import urllib.request
 import xml.etree.ElementTree as ET
 from urllib.parse import urlsplit
 
+from sync import http
+
 SITEMAP_URL = "https://www.anthropic.com/sitemap.xml"
-USER_AGENT = "Mozilla/5.0 (compatible; anthropic-blog-sync)"
-TIMEOUT = 30
 NS = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
 
 def download(url=SITEMAP_URL):
     """sitemap.xml 원문(bytes)을 받는다. 실패하면 예외를 그대로 올린다."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-        return resp.read()
+    return http.get(url)
 
 
 def parse(xml_bytes):
