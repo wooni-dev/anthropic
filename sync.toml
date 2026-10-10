@@ -1,0 +1,8 @@
+# anthropic.com 글 목록 동기화 설정
+# fetch 가 이 파일을 읽어 어떤 글을 목록(upstream/)에 넣을지 정한다.
+
+# 목록을 동기화할 섹션. URL 이 https://www.anthropic.com/<섹션>/<slug> 형태인 글만 대상이 된다.
+sections = ["engineering", "news", "research"]
+
+# 목록에서 뺄 URL 패턴 (지금은 없음)
+exclude = []
