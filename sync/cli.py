@@ -39,7 +39,8 @@ def commit(changes):
         return None
     counts = {k: len(v) for k, v in changes.items()}
     lines = [f"fetch: +{counts['new']} ~{counts['modified']} -{counts['removed']}"
-             + (f" ^{counts['returned']}" if counts["returned"] else ""), ""]
+             + (f" ^{counts['returned']}" if counts["returned"] else "")
+             + (f" *{counts['updated']}" if counts["updated"] else ""), ""]
     for label, urls in changes.items():
         lines += [f"{label + ':':10}{u.split('anthropic.com/')[1]}" for u in urls]
     r = git("commit", "-q", "-F", "-", "--", store.ROOT, stdin="\n".join(lines) + "\n")
@@ -91,6 +92,8 @@ def fetch(refresh_titles=False, do_commit=True):
 
     # [6~8] 레코드를 만들고, 바뀐 파일만 쓴다
     written = no_title = 0
+    classified = set(new) | set(modified) | set(returned)
+    updated = []  # lastmod 는 그대로인데 제목·날짜·소개·주제가 바뀐 글 (주로 --refresh-titles)
     for url, e in remote.items():
         old = local.get(url, {})
         rec = dict(old) or {"url": url, "section": e["section"], "slug": e["slug"],
@@ -105,15 +108,20 @@ def fetch(refresh_titles=False, do_commit=True):
         elif not rec.get("title"):
             rec.update(title=slug_title(e["slug"]), title_source="slug", published=None, summary=None)
         no_title += rec["title_source"] == "slug"
-        written += store.write_if_changed(rec)
+        if store.write_if_changed(rec):
+            written += 1
+            if url not in classified:
+                updated.append(url)
     for url in removed:
         rec = dict(local[url], state="removed", removed_at=today)
         written += store.write_if_changed(rec)
 
     # [10] 결과 보고
+    changes = {"new": new, "modified": modified, "removed": removed,
+               "returned": returned, "updated": updated}
     print(f"새 글 {len(new)} · 수정 {len(modified)} · 삭제 {len(removed)} · 복귀 {len(returned)}"
-          f" · 바뀐 파일 {written} · 제목 미확보 {no_title}")
-    for label, urls in (("new", new), ("modified", modified), ("removed", removed), ("returned", returned)):
+          f" · 갱신 {len(updated)} · 바뀐 파일 {written} · 제목 미확보 {no_title}")
+    for label, urls in changes.items():
         for u in urls[:20]:
             print(f"  {label:9} {u.split('anthropic.com/')[1]}")
         if len(urls) > 20:
@@ -121,7 +129,7 @@ def fetch(refresh_titles=False, do_commit=True):
 
     # [9] 커밋
     if do_commit and written:
-        sha = commit({"new": new, "modified": modified, "removed": removed, "returned": returned})
+        sha = commit(changes)
         print(f"커밋: {sha}" if sha else "커밋 없음 (실제 변경 없음)")
     return 0
 
