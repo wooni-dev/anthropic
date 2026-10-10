@@ -3,6 +3,7 @@
     python -m sync.cli fetch                   원격(anthropic.com) 목록을 upstream/ 에 반영하고 커밋
     python -m sync.cli fetch --refresh-titles  모든 글의 제목·날짜를 목록 페이지로 다시 확인
     python -m sync.cli fetch --no-commit       파일만 바꾸고 커밋은 하지 않음
+    python -m sync.cli status                  upstream/ 현황 요약 (네트워크 사용 안 함)
 
 존재 여부는 sitemap 만 기준으로 하고, 목록 페이지는 제목·날짜·소개·주제를 채우는 데만 쓴다.
 커밋은 upstream/ 만 대상으로 하며, push 는 하지 않는다.
@@ -125,15 +126,41 @@ def fetch(refresh_titles=False, do_commit=True):
     return 0
 
 
+def status():
+    with open(CONFIG, "rb") as f:
+        cfg = tomllib.load(f)
+    records = store.load_all()
+    if not records:
+        print("upstream/ 가 비어 있다. 먼저 fetch 를 실행할 것.")
+        return 0
+    last = git("log", "-1", "--format=%h %ad %s", "--date=format:%Y-%m-%d %H:%M", "--", store.ROOT)
+    print(f"마지막 fetch 커밋: {last.stdout.strip() or '없음 (커밋 전)'}")
+    dirty = git("status", "--porcelain", "--", store.ROOT).stdout.strip()
+    if dirty:
+        print(f"커밋되지 않은 변경: {len(dirty.splitlines())}개 파일")
+    for section in cfg["sections"]:
+        recs = [r for r in records.values() if r["section"] == section]
+        active = sum(1 for r in recs if r["state"] == "active")
+        print(f"  {section:12} {active:4} active · {len(recs) - active} removed")
+    sources = {}
+    for r in records.values():
+        sources[r.get("title_source")] = sources.get(r.get("title_source"), 0) + 1
+    print("제목 출처: " + " · ".join(f"{k} {v}" for k, v in sorted(sources.items(), key=str)))
+    return 0
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="python -m sync.cli")
     sub = ap.add_subparsers(dest="command", required=True)
     p = sub.add_parser("fetch", help="원격 목록을 upstream/ 에 반영")
     p.add_argument("--refresh-titles", action="store_true", help="모든 글의 제목·날짜를 다시 확인")
     p.add_argument("--no-commit", action="store_true", help="파일만 바꾸고 커밋하지 않음")
+    sub.add_parser("status", help="upstream/ 현황 요약")
     args = ap.parse_args(argv)
     if args.command == "fetch":
         return fetch(args.refresh_titles, not args.no_commit)
+    if args.command == "status":
+        return status()
 
 
 if __name__ == "__main__":
