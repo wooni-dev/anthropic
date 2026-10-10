@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+  "section": "research",
+  "slug": "formalizing-fermats-last-theorem",
+  "title": "Formalizing Fermat's Last Theorem",
+  "title_source": "listing",
+  "published": "2026-09-04",
+  "lastmod": "2026-09-10T19:05:29.000Z",
+  "summary": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.",
+  "subjects": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

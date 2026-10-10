@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/claude-personal-guidance",
+  "section": "research",
+  "slug": "claude-personal-guidance",
+  "title": "How people ask Claude for personal guidance",
+  "title_source": "listing",
+  "published": "2026-04-30",
+  "lastmod": "2026-07-06T23:47:46.000Z",
+  "summary": "We look at what types of guidance people ask of Claude, and describe how this research shaped the training of our newest models.",
+  "subjects": [
+    "Societal Impacts"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

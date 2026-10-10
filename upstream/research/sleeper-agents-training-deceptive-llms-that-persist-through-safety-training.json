@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+  "section": "research",
+  "slug": "sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+  "title": "Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training",
+  "title_source": "listing",
+  "published": "2024-01-14",
+  "lastmod": "2024-08-05T19:55:40.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

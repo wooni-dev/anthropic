@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/project-pilot",
+  "section": "research",
+  "slug": "project-pilot",
+  "title": "Project Pilot: Can AI control a drone?",
+  "title_source": "listing",
+  "published": "2026-07-24",
+  "lastmod": "2026-07-24T15:38:58.000Z",
+  "summary": "Working with Andon Labs, we’ve developed a new series of evaluations that assess AI models’ ability to use a flying drone, culminating in a new benchmark: Drone-Bench.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

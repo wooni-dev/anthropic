@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/news/claude-opus-4-8",
+  "section": "news",
+  "slug": "claude-opus-4-8",
+  "title": "Introducing Claude Opus 4.8",
+  "title_source": "listing",
+  "published": "2026-05-28",
+  "lastmod": "2026-09-09T15:41:17.000Z",
+  "summary": "An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+  "subjects": [
+    "Product",
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

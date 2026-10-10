@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+  "section": "news",
+  "slug": "claude-sonnet-4-5",
+  "title": "Introducing Claude Sonnet 4.5",
+  "title_source": "listing",
+  "published": "2025-09-29",
+  "lastmod": "2026-07-22T01:13:43.000Z",
+  "summary": "Claude Sonnet 4.5 sets new benchmark records in coding, reasoning, and computer use while being Anthropic's most aligned model, accompanied by the release of the Claude Agent SDK for building capable agents",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

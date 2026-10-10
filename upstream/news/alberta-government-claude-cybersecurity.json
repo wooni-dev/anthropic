@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+  "section": "news",
+  "slug": "alberta-government-claude-cybersecurity",
+  "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+  "title_source": "listing",
+  "published": "2026-07-06",
+  "lastmod": "2026-09-09T15:22:07.000Z",
+  "summary": "Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.",
+  "subjects": [
+    "Case Study"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

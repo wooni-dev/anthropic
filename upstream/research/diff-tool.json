@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/diff-tool",
+  "section": "research",
+  "slug": "diff-tool",
+  "title": "A “diff” tool for AI: Finding behavioral differences in new models",
+  "title_source": "listing",
+  "published": "2026-03-13",
+  "lastmod": "2026-09-09T20:53:28.000Z",
+  "summary": "\"Model diffing\" is a powerful way to understand how models change during fine-tuning. Our new research paper extends this method to its most challenging and general use case: comparing models with entirely different architectures.",
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

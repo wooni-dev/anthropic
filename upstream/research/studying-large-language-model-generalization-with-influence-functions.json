@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions",
+  "section": "research",
+  "slug": "studying-large-language-model-generalization-with-influence-functions",
+  "title": "Studying large language model generalization with influence functions",
+  "title_source": "listing",
+  "published": "2023-08-08",
+  "lastmod": "2026-09-09T20:00:28.000Z",
+  "summary": "This paper scales influence functions to 52B parameter models, revealing how generalization patterns become more abstract with model size.",
+  "subjects": [
+    "Alignment",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

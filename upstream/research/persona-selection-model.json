@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/persona-selection-model",
+  "section": "research",
+  "slug": "persona-selection-model",
+  "title": "The persona selection model",
+  "title_source": "listing",
+  "published": "2026-02-23",
+  "lastmod": "2026-07-08T20:10:45.000Z",
+  "summary": "Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/claude-character",
+  "section": "research",
+  "slug": "claude-character",
+  "title": "Claude’s Character",
+  "title_source": "listing",
+  "published": "2024-06-08",
+  "lastmod": "2025-11-20T16:15:32.000Z",
+  "summary": "Claude 3 was the first model with \"character training\"—alignment aimed at nurturing traits like curiosity, open-mindedness, and thoughtfulness.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

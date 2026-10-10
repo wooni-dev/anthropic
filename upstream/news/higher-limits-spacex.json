@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/higher-limits-spacex",
+  "section": "news",
+  "slug": "higher-limits-spacex",
+  "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+  "title_source": "listing",
+  "published": "2026-05-06",
+  "lastmod": "2026-09-09T20:21:59.000Z",
+  "summary": "We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

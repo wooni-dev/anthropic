@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
+  "section": "research",
+  "slug": "measuring-faithfulness-in-chain-of-thought-reasoning",
+  "title": "Measuring faithfulness in Chain-of-Thought reasoning",
+  "title_source": "listing",
+  "published": "2023-07-18",
+  "lastmod": "2026-09-09T19:56:50.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

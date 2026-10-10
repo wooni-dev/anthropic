@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+  "section": "research",
+  "slug": "alignment-assessment-cybersecurity-incidents",
+  "title": "An alignment assessment of recent cybersecurity incidents",
+  "title_source": "listing",
+  "published": "2026-09-09",
+  "lastmod": "2026-09-17T23:46:13.000Z",
+  "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

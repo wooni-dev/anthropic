@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+  "section": "research",
+  "slug": "natural-language-autoencoders",
+  "title": "Natural Language Autoencoders: Turning Claude’s thoughts into text",
+  "title_source": "listing",
+  "published": "2026-05-07",
+  "lastmod": "2026-06-05T15:14:37.000Z",
+  "summary": "AI models like Claude talk in words but think in numbers. In this study, we train Claude to translate its thoughts into human-readable text.",
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

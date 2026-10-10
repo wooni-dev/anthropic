@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/biorisk",
+  "section": "research",
+  "slug": "biorisk",
+  "title": "Why do we take LLMs seriously as a potential source of biorisk?",
+  "title_source": "listing",
+  "published": "2025-09-05",
+  "lastmod": "2026-07-08T20:53:48.000Z",
+  "summary": "This article explains why we believe that evaluating biorisks and safeguarding against them is a critical element of responsible AI development.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

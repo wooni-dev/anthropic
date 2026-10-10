@@ -1,0 +1,18 @@
+{
+  "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+  "section": "news",
+  "slug": "AI-enabled-cyber-threats-mitre-attack",
+  "title": "What we learned mapping a year’s worth of AI-enabled cyber threats",
+  "title_source": "listing",
+  "published": "2026-06-03",
+  "lastmod": "2026-09-10T16:29:36.000Z",
+  "summary": "As AI changes how cyberattacks happen, how well do the security community's frameworks hold up? A new report maps attacks onto MITRE ATT&CK.",
+  "subjects": [
+    "Announcements",
+    "Policy",
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/cyber-toolkits",
+  "section": "research",
+  "slug": "cyber-toolkits",
+  "title": "LLMs with cyber toolkits can conduct multistage cyber operations on business-sized computer networks",
+  "title_source": "listing",
+  "published": "2025-06-13",
+  "lastmod": "2026-06-17T16:48:19.000Z",
+  "summary": "Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage attacks on networks with dozens of hosts when equipped with a novel toolkit.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

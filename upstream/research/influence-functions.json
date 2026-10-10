@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/influence-functions",
+  "section": "research",
+  "slug": "influence-functions",
+  "title": "Tracing model outputs to the training data",
+  "title_source": "listing",
+  "published": "2023-08-08",
+  "lastmod": "2026-09-09T20:01:19.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

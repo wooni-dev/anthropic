@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/long-running-Claude",
+  "section": "research",
+  "slug": "long-running-Claude",
+  "title": "Long-running Claude for scientific computing",
+  "title_source": "listing",
+  "published": "2026-03-23",
+  "lastmod": "2026-09-09T20:51:12.000Z",
+  "summary": "A practical guide to running Claude Code for multi-day scientific tasks—test oracles, persistent memory, and orchestration patterns.",
+  "subjects": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

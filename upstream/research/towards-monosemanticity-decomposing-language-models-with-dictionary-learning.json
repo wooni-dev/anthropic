@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+  "section": "research",
+  "slug": "towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+  "title": "Towards monosemanticity: Decomposing language models with dictionary learning",
+  "title_source": "listing",
+  "published": "2023-10-05",
+  "lastmod": "2026-09-09T20:13:59.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

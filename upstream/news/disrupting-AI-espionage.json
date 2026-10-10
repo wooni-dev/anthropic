@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+  "section": "news",
+  "slug": "disrupting-AI-espionage",
+  "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
+  "title_source": "listing",
+  "published": "2025-11-13",
+  "lastmod": "2026-09-10T18:24:07.000Z",
+  "summary": "In September 2025, we detected and disrupted a highly sophisticated cyber espionage campaign. We’re sharing this case publicly to help others strengthen their own defenses.",
+  "subjects": [
+    "Announcements",
+    "Policy"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

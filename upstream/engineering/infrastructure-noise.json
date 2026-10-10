@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+  "section": "engineering",
+  "slug": "infrastructure-noise",
+  "title": "Quantifying infrastructure noise in agentic coding evals",
+  "title_source": "listing",
+  "published": "2026-02-05",
+  "lastmod": "2026-04-24T14:21:28.000Z",
+  "summary": "Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models.",
+  "subjects": [
+    "Architecture"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

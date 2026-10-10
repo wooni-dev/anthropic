@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/softmax-linear-units",
+  "section": "research",
+  "slug": "softmax-linear-units",
+  "title": "Softmax Linear Units",
+  "title_source": "listing",
+  "published": "2022-06-17",
+  "lastmod": "2026-09-09T19:19:35.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

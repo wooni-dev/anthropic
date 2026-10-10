@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+  "section": "engineering",
+  "slug": "eval-awareness-browsecomp",
+  "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+  "title_source": "listing",
+  "published": "2026-03-06",
+  "lastmod": "2026-03-18T20:16:12.000Z",
+  "summary": "Evaluating Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments.",
+  "subjects": [
+    "Testing"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

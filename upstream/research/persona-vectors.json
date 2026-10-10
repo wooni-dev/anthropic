@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/persona-vectors",
+  "section": "research",
+  "slug": "persona-vectors",
+  "title": "Persona vectors: Monitoring and controlling character traits in language models",
+  "title_source": "listing",
+  "published": "2025-08-01",
+  "lastmod": "2026-08-26T20:53:12.000Z",
+  "summary": "AI models represent character traits as patterns of activations within their neural networks. By extracting \"persona vectors\" for traits like sycophancy or hallucination, we can monitor personality shifts and mitigate undesirable behaviors.",
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/news/developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+  "section": "news",
+  "slug": "developing-nuclear-safeguards-for-ai-through-public-private-partnership",
+  "title": "Developing nuclear safeguards for AI through public-private partnership",
+  "title_source": "listing",
+  "published": "2025-08-21",
+  "lastmod": "2026-09-10T20:11:55.000Z",
+  "summary": "Together with the NNSA and DOE national laboratories, we have co-developed a classifier that distinguishes between concerning and benign nuclear-related conversations with 96% accuracy in preliminary testing.",
+  "subjects": [
+    "Announcements",
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

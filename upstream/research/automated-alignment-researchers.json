@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+  "section": "research",
+  "slug": "automated-alignment-researchers",
+  "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+  "title_source": "listing",
+  "published": "2026-04-14",
+  "lastmod": "2026-09-09T20:37:06.000Z",
+  "summary": "Can Claude develop, test, and analyze alignment ideas of its own? We ran an experiment to find out.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

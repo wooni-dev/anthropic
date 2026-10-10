@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/news/detecting-countering-misuse-aug-2025",
+  "section": "news",
+  "slug": "detecting-countering-misuse-aug-2025",
+  "title": "Detecting and countering misuse of AI: August 2025",
+  "title_source": "listing",
+  "published": "2025-08-27",
+  "lastmod": "2026-09-10T19:44:33.000Z",
+  "summary": "We’ve developed safeguards to prevent the misuse of our models, but malicious actors are actively attempting to find ways around them. Today, we’re releasing a report that details how.",
+  "subjects": [
+    "Announcements",
+    "Policy"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

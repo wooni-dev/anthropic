@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+  "section": "engineering",
+  "slug": "claude-code-sandboxing",
+  "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+  "title_source": "listing",
+  "published": "2025-10-20",
+  "lastmod": "2025-11-03T21:01:45.000Z",
+  "summary": "Claude Code's new sandboxing features, a bash tool and Claude Code on the web,  reduce permission prompts and increase user safety by enabling two boundaries: filesystem and network isolation.",
+  "subjects": [
+    "Developer Tools"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

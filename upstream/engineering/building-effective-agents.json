@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/building-effective-agents",
+  "section": "engineering",
+  "slug": "building-effective-agents",
+  "title": "Building effective agents",
+  "title_source": "listing",
+  "published": "2024-12-19",
+  "lastmod": "2026-08-10T22:57:30.000Z",
+  "summary": "We've worked with dozens of teams building LLM agents across industries. Consistently, the most successful implementations use simple, composable patterns rather than complex frameworks.",
+  "subjects": [
+    "Architecture"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

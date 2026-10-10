@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/engineering-challenges-interpretability",
+  "section": "research",
+  "slug": "engineering-challenges-interpretability",
+  "title": "The engineering challenges of scaling interpretability",
+  "title_source": "listing",
+  "published": "2024-06-13",
+  "lastmod": "2024-06-13T15:57:37.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

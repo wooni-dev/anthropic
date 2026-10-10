@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/swe-bench-sonnet",
+  "section": "research",
+  "slug": "swe-bench-sonnet",
+  "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+  "title_source": "listing",
+  "published": "2024-10-30",
+  "lastmod": "2024-12-19T18:59:14.000Z",
+  "summary": null,
+  "subjects": [
+    "Product"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

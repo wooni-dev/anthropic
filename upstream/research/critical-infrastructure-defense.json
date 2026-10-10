@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/critical-infrastructure-defense",
+  "section": "research",
+  "slug": "critical-infrastructure-defense",
+  "title": "Experimenting with AI to defend critical infrastructure",
+  "title_source": "listing",
+  "published": "2026-01-08",
+  "lastmod": "2026-09-09T21:53:55.000Z",
+  "summary": "AI could help defenders of critical infrastructure identify the vulnerabilities that attackers might exploit—and close them before they are exploited. Anthropic has partnered with Pacific Northwest National Laboratory (PNNL) to explore this defensive application of AI, demonstrating both the potential of AI-accelerated defense and the value of public-private partnerships in harnessing AI for national security.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

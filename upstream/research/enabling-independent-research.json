@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/enabling-independent-research",
+  "section": "research",
+  "slug": "enabling-independent-research",
+  "title": "Enabling independent research on how people use Claude",
+  "title_source": "listing",
+  "published": "2026-08-26",
+  "lastmod": "2026-09-11T16:57:50.000Z",
+  "summary": "We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.",
+  "subjects": [
+    "Societal Impacts"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

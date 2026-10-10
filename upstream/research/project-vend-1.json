@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/project-vend-1",
+  "section": "research",
+  "slug": "project-vend-1",
+  "title": "Project Vend: Can Claude run a small shop? (And why does that matter?)",
+  "title_source": "listing",
+  "published": "2025-06-27",
+  "lastmod": "2026-03-26T11:03:57.000Z",
+  "summary": null,
+  "subjects": [
+    "Frontier Red Team",
+    "Policy"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

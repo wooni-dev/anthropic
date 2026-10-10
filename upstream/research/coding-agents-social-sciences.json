@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+  "section": "research",
+  "slug": "coding-agents-social-sciences",
+  "title": "Coding agents in the social sciences",
+  "title_source": "listing",
+  "published": "2026-05-27",
+  "lastmod": "2026-08-25T16:13:14.000Z",
+  "summary": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
+  "subjects": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

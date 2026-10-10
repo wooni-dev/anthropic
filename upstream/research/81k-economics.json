@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/81k-economics",
+  "section": "research",
+  "slug": "81k-economics",
+  "title": "What 81,000 people told us about the economics of AI",
+  "title_source": "listing",
+  "published": "2026-04-22",
+  "lastmod": "2026-09-09T20:31:20.000Z",
+  "summary": "Our recent survey study with 81,000 Claude users provides a way to connect people’s economic concerns with what we’ve quantified in Claude traffic.",
+  "subjects": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

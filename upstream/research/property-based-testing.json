@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/property-based-testing",
+  "section": "research",
+  "slug": "property-based-testing",
+  "title": "Finding bugs across the Python ecosystem with Claude and property-based testing",
+  "title_source": "listing",
+  "published": "2026-01-14",
+  "lastmod": "2026-09-09T21:50:18.000Z",
+  "summary": "Ensuring that programs are bug-free is one of the most challenging aspects of software engineering. We developed an agent that can efficiently identify bugs in large software projects.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

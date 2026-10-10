@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/project-swap",
+  "section": "research",
+  "slug": "project-swap",
+  "title": "Project Swap: What happens when agents trade for us?",
+  "title_source": "listing",
+  "published": "2026-09-24",
+  "lastmod": "2026-09-28T13:18:19.000Z",
+  "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
+  "subjects": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

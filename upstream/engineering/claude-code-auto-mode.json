@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+  "section": "engineering",
+  "slug": "claude-code-auto-mode",
+  "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+  "title_source": "listing",
+  "published": "2026-03-25",
+  "lastmod": "2026-05-27T11:44:48.000Z",
+  "summary": "Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses.",
+  "subjects": [
+    "Architecture"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

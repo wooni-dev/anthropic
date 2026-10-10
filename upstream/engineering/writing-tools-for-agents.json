@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+  "section": "engineering",
+  "slug": "writing-tools-for-agents",
+  "title": "Writing effective tools for agents — with agents",
+  "title_source": "listing",
+  "published": "2025-09-11",
+  "lastmod": "2026-01-06T15:05:23.000Z",
+  "summary": "Agents are only as effective as the tools we give them. We share how to write high-quality tools and evaluations, and how you can boost performance by using Claude to optimize its tools for itself.",
+  "subjects": [
+    "Architecture",
+    "Developer Tools"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

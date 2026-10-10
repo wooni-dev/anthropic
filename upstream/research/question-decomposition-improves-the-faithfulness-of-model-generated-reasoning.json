@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+  "section": "research",
+  "slug": "question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+  "title": "Question decomposition improves the faithfulness of model-generated reasoning",
+  "title_source": "listing",
+  "published": "2023-07-18",
+  "lastmod": "2026-09-09T19:54:49.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

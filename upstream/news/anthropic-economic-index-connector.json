@@ -1,0 +1,18 @@
+{
+  "url": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+  "section": "news",
+  "slug": "anthropic-economic-index-connector",
+  "title": "Ask Claude about the Anthropic Economic Index",
+  "title_source": "listing",
+  "published": "2026-07-22",
+  "lastmod": "2026-08-25T16:13:14.000Z",
+  "summary": "We're launching the Anthropic Economic Index connector for Claude, which lets anyone explore real data about AI and work.",
+  "subjects": [
+    "Product",
+    "Announcements",
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

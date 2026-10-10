@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/vibe-physics",
+  "section": "research",
+  "slug": "vibe-physics",
+  "title": "Vibe physics: The AI grad student",
+  "title_source": "listing",
+  "published": "2026-03-23",
+  "lastmod": "2026-09-09T20:52:19.000Z",
+  "summary": "Can AI do theoretical physics? I decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file myself.",
+  "subjects": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

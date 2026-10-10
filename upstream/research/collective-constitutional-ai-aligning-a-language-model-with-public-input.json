@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+  "section": "research",
+  "slug": "collective-constitutional-ai-aligning-a-language-model-with-public-input",
+  "title": "Collective Constitutional AI: Aligning a language model with public input",
+  "title_source": "listing",
+  "published": "2023-10-17",
+  "lastmod": "2026-09-09T20:16:34.000Z",
+  "summary": "Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.",
+  "subjects": [
+    "Policy",
+    "Societal Impacts"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/off-switch-dual-use",
+  "section": "research",
+  "slug": "off-switch-dual-use",
+  "title": "An off switch for dual-use knowledge in AI models",
+  "title_source": "listing",
+  "published": "2026-07-08",
+  "lastmod": "2026-09-09T15:21:24.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
+  "section": "news",
+  "slug": "microsoft-nvidia-anthropic-announce-strategic-partnerships",
+  "title": "Microsoft, NVIDIA, and Anthropic announce strategic partnerships",
+  "title_source": "listing",
+  "published": "2025-11-18",
+  "lastmod": "2026-09-10T18:22:27.000Z",
+  "summary": "Microsoft, NVIDIA and Anthropic announced new strategic partnerships. Anthropic is scaling its rapidly-growing Claude AI model on Microsoft Azure, powered by NVIDIA, which will broaden access to Claude and provide Azure enterprise customers with expanded model choice and new capabilities. Anthropic has committed to purchase $30 billion of Azure compute capacity and to contract additional compute capacity up to one gigawatt.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

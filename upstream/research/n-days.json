@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/n-days",
+  "section": "research",
+  "slug": "n-days",
+  "title": "Measuring LLMs’ impact on N-day exploits",
+  "title_source": "listing",
+  "published": "2026-06-08",
+  "lastmod": "2026-09-09T15:35:41.000Z",
+  "summary": "In cybersecurity, a large fraction of real-world harm comes from N-days: vulnerabilities that have already been publicly disclosed, but only patched on some devices. In this post, we evaluate how much large language models can accelerate and automate the process of developing N-day exploits.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

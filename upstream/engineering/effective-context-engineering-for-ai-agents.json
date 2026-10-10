@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+  "section": "engineering",
+  "slug": "effective-context-engineering-for-ai-agents",
+  "title": "Effective context engineering for AI agents",
+  "title_source": "listing",
+  "published": "2025-09-29",
+  "lastmod": "2026-01-06T15:31:12.000Z",
+  "summary": "Context is a critical but finite resource for AI agents. In this post, we explore strategies for effectively curating and managing the context that powers them.",
+  "subjects": [
+    "Agents"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

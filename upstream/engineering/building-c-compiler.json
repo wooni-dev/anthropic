@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/building-c-compiler",
+  "section": "engineering",
+  "slug": "building-c-compiler",
+  "title": "Building a C compiler with a team of parallel Claudes",
+  "title_source": "listing",
+  "published": "2026-02-05",
+  "lastmod": "2026-02-05T19:38:29.000Z",
+  "summary": "We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development.",
+  "subjects": [
+    "Developer Tools"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

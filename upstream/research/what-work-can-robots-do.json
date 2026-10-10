@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+  "section": "research",
+  "slug": "what-work-can-robots-do",
+  "title": "What work can robots do?",
+  "title_source": "listing",
+  "published": "2026-09-30",
+  "lastmod": "2026-10-05T18:58:21.000Z",
+  "summary": "We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.",
+  "subjects": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

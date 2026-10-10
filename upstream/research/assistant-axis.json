@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/assistant-axis",
+  "section": "research",
+  "slug": "assistant-axis",
+  "title": "The assistant axis: situating and stabilizing the character of large language models",
+  "title_source": "listing",
+  "published": "2026-01-19",
+  "lastmod": "2026-07-08T20:11:22.000Z",
+  "summary": "Who is the Assistant? We investigate the character that most modern language models inhabit when interacting with users.",
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

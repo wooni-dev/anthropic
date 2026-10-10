@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/bloom",
+  "section": "research",
+  "slug": "bloom",
+  "title": "Introducing Bloom: an open source tool for automated behavioral evaluations",
+  "title_source": "listing",
+  "published": "2025-12-19",
+  "lastmod": "2026-09-09T21:55:31.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

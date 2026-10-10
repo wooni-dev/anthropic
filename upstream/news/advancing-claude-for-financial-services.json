@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/advancing-claude-for-financial-services",
+  "section": "news",
+  "slug": "advancing-claude-for-financial-services",
+  "title": "Advancing Claude for Financial Services",
+  "title_source": "listing",
+  "published": "2025-10-27",
+  "lastmod": "2026-09-10T18:33:17.000Z",
+  "summary": "Claude for Financial Services now supports a native Excel plug-in, new connectors to real-time market, and pre-built skills for modeling, comp analysis, and earnings reports.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

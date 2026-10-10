@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream",
+  "section": "research",
+  "slug": "privileged-bases-in-the-transformer-residual-stream",
+  "title": "Privileged bases in the transformer residual stream",
+  "title_source": "listing",
+  "published": "2023-03-16",
+  "lastmod": "2026-09-09T19:33:22.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

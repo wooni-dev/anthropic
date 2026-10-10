@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/sabotage-evaluations",
+  "section": "research",
+  "slug": "sabotage-evaluations",
+  "title": "Sabotage evaluations for frontier models",
+  "title_source": "listing",
+  "published": "2024-10-18",
+  "lastmod": "2024-10-18T17:54:45.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/crosscoder-model-diffing",
+  "section": "research",
+  "slug": "crosscoder-model-diffing",
+  "title": "Insights on crosscoder model diffing",
+  "title_source": "listing",
+  "published": "2025-02-20",
+  "lastmod": "2026-08-26T18:30:11.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

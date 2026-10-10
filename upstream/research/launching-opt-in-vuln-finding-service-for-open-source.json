@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+  "section": "research",
+  "slug": "launching-opt-in-vuln-finding-service-for-open-source",
+  "title": "Launching an opt-in vulnerability-finding service for open-source software",
+  "title_source": "listing",
+  "published": "2026-10-08",
+  "lastmod": "2026-10-09T08:48:01.000Z",
+  "summary": "We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

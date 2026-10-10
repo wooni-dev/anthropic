@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/agentic-misalignment",
+  "section": "research",
+  "slug": "agentic-misalignment",
+  "title": "Agentic misalignment: How LLMs could be insider threats",
+  "title_source": "listing",
+  "published": "2025-06-20",
+  "lastmod": "2026-07-13T18:27:52.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

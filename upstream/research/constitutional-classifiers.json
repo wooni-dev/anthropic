@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/constitutional-classifiers",
+  "section": "research",
+  "slug": "constitutional-classifiers",
+  "title": "Constitutional Classifiers: Defending against universal jailbreaks",
+  "title_source": "listing",
+  "published": "2025-02-03",
+  "lastmod": "2026-08-26T20:45:34.000Z",
+  "summary": "These classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

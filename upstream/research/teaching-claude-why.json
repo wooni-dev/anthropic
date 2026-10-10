@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/teaching-claude-why",
+  "section": "research",
+  "slug": "teaching-claude-why",
+  "title": "Teaching Claude why",
+  "title_source": "listing",
+  "published": "2026-05-08",
+  "lastmod": "2026-05-20T13:19:12.000Z",
+  "summary": "New research on how we've reduced agentic misalignment.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

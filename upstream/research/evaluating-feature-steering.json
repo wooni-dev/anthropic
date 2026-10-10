@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/evaluating-feature-steering",
+  "section": "research",
+  "slug": "evaluating-feature-steering",
+  "title": "Evaluating feature steering: A case study in mitigating social biases",
+  "title_source": "listing",
+  "published": "2024-10-25",
+  "lastmod": "2024-12-19T18:55:53.000Z",
+  "summary": null,
+  "subjects": [
+    "Societal Impacts",
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

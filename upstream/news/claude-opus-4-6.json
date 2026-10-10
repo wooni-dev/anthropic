@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/claude-opus-4-6",
+  "section": "news",
+  "slug": "claude-opus-4-6",
+  "title": "Introducing Claude Opus 4.6",
+  "title_source": "listing",
+  "published": "2026-02-05",
+  "lastmod": "2026-09-09T21:28:45.000Z",
+  "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

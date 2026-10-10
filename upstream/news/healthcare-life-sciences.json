@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/news/healthcare-life-sciences",
+  "section": "news",
+  "slug": "healthcare-life-sciences",
+  "title": "Advancing Claude in healthcare and the life sciences",
+  "title_source": "listing",
+  "published": "2026-01-11",
+  "lastmod": "2026-08-27T15:12:44.000Z",
+  "summary": "Claude for Healthcare introduces HIPAA-ready infrastructure for providers and payers, while expanded Life Sciences capabilities add connectors to Medidata and ClinicalTrials.gov for clinical trial operations and regulatory work.",
+  "subjects": [
+    "Announcements",
+    "Beneficial Deployments"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

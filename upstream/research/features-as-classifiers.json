@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/features-as-classifiers",
+  "section": "research",
+  "slug": "features-as-classifiers",
+  "title": "Using dictionary learning features as classifiers",
+  "title_source": "listing",
+  "published": "2024-10-16",
+  "lastmod": "2024-10-17T23:50:27.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

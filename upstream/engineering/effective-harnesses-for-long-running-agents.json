@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+  "section": "engineering",
+  "slug": "effective-harnesses-for-long-running-agents",
+  "title": "Effective harnesses for long-running agents",
+  "title_source": "listing",
+  "published": "2025-11-26",
+  "lastmod": "2025-11-26T18:07:21.000Z",
+  "summary": "Agents still face challenges working across many context windows. We looked to human engineers for inspiration in creating a more effective harness for long-running agents.",
+  "subjects": [
+    "Developer Tools"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

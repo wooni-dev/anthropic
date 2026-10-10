@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/decomposing-language-models-into-understandable-components",
+  "section": "research",
+  "slug": "decomposing-language-models-into-understandable-components",
+  "title": "Decomposing language models into understandable components",
+  "title_source": "listing",
+  "published": "2023-10-05",
+  "lastmod": "2026-09-09T20:15:01.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability",
+    "Research"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

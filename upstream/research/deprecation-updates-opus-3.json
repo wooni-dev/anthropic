@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/deprecation-updates-opus-3",
+  "section": "research",
+  "slug": "deprecation-updates-opus-3",
+  "title": "An update on our model deprecation commitments for Claude Opus 3",
+  "title_source": "listing",
+  "published": "2026-02-25",
+  "lastmod": "2026-09-09T21:14:42.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

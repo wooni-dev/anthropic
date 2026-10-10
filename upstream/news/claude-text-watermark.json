@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/claude-text-watermark",
+  "section": "news",
+  "slug": "claude-text-watermark",
+  "title": "How Claude’s text watermark works",
+  "title_source": "listing",
+  "published": "2026-08-14",
+  "lastmod": "2026-09-09T14:58:19.000Z",
+  "summary": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

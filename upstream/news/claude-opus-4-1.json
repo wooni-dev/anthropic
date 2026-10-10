@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/claude-opus-4-1",
+  "section": "news",
+  "slug": "claude-opus-4-1",
+  "title": "Claude Opus 4.1",
+  "title_source": "listing",
+  "published": "2025-08-05",
+  "lastmod": "2025-08-14T16:28:38.000Z",
+  "summary": "Our most powerful model for handling complex agent and coding tasks",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

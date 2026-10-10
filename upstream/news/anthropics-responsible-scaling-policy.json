@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/anthropics-responsible-scaling-policy",
+  "section": "news",
+  "slug": "anthropics-responsible-scaling-policy",
+  "title": "Introducing Anthropic's Responsible Scaling Policy",
+  "title_source": "listing",
+  "published": "2023-09-19",
+  "lastmod": "2026-09-09T20:08:24.000Z",
+  "summary": "We’re publishing our Responsible Scaling Policy—a series of technical and organizational protocols that we’re adopting to help us manage the risks of developing increasingly capable AI systems.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

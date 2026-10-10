@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/alignment-faking",
+  "section": "research",
+  "slug": "alignment-faking",
+  "title": "Alignment faking in large language models",
+  "title_source": "listing",
+  "published": "2024-12-18",
+  "lastmod": "2026-07-08T22:15:12.000Z",
+  "summary": "This paper provides the first empirical example of a model engaging in alignment faking without being trained to do so—selectively complying with training objectives while strategically preserving existing preferences.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

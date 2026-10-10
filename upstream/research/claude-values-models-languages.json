@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/claude-values-models-languages",
+  "section": "research",
+  "slug": "claude-values-models-languages",
+  "title": "Claude’s values across models and languages",
+  "title_source": "listing",
+  "published": "2026-07-13",
+  "lastmod": "2026-09-11T16:58:57.000Z",
+  "summary": "New research into how the values expressed by Claude vary across the top 20 languages on Claude.ai.",
+  "subjects": [
+    "Societal Impacts"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

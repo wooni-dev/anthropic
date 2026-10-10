@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+  "section": "engineering",
+  "slug": "demystifying-evals-for-ai-agents",
+  "title": "Demystifying evals for AI agents",
+  "title_source": "listing",
+  "published": "2026-01-09",
+  "lastmod": "2026-03-18T18:48:35.000Z",
+  "summary": "The capabilities that make agents useful also make them difficult to evaluate. The strategies that work across deployments combine techniques to match the complexity of the systems they measure.",
+  "subjects": [
+    "Testing"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

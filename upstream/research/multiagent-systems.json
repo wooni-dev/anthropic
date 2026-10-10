@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/multiagent-systems",
+  "section": "research",
+  "slug": "multiagent-systems",
+  "title": "Patterns and problems in emerging multiagent systems",
+  "title_source": "listing",
+  "published": "2026-08-13",
+  "lastmod": "2026-08-27T15:38:32.000Z",
+  "summary": "Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

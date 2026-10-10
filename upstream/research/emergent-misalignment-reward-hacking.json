@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+  "section": "research",
+  "slug": "emergent-misalignment-reward-hacking",
+  "title": "From shortcuts to sabotage: natural emergent misalignment from reward hacking",
+  "title_source": "listing",
+  "published": "2025-11-21",
+  "lastmod": "2026-07-08T21:33:46.000Z",
+  "summary": "We show for the first time that realistic AI training processes can accidentally produce misaligned models.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

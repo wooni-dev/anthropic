@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/AI-fluency-index",
+  "section": "research",
+  "slug": "AI-fluency-index",
+  "title": "Anthropic Education Report: The AI Fluency Index",
+  "title_source": "listing",
+  "published": "2026-02-23",
+  "lastmod": "2026-09-11T11:57:15.000Z",
+  "summary": "We tracked 11 observable behaviors across thousands of Claude.ai conversations to build the AI Fluency Index — a baseline for measuring how people collaborate with AI today.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

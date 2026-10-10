@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/economic-index-geography",
+  "section": "research",
+  "slug": "economic-index-geography",
+  "title": "Anthropic Economic Index: Tracking AI’s role in the US and global economy",
+  "title_source": "listing",
+  "published": "2025-09-15",
+  "lastmod": "2026-09-11T11:55:40.000Z",
+  "summary": "This report maps how Claude is used differently across US states and countries, finding strong correlations between income and AI adoption. It also tracks a notable shift: directive automation has risen from 27% to 39% of conversations since December 2024, with businesses automating far more than consumers.",
+  "subjects": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

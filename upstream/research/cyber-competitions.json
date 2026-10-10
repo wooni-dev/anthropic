@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/cyber-competitions",
+  "section": "research",
+  "slug": "cyber-competitions",
+  "title": "Claude is competitive with humans in (some) cyber competitions",
+  "title_source": "listing",
+  "published": "2025-08-09",
+  "lastmod": "2026-06-17T16:48:02.000Z",
+  "summary": "Throughout 2025, we have been quietly entering Claude in cybersecurity competitions designed primarily for humans. In many of these competitions Claude did pretty well, often placing in the top 25% of competitors. However, it lagged behind the best human teams at the toughest challenges.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

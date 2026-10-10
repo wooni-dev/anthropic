@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/small-samples-poison",
+  "section": "research",
+  "slug": "small-samples-poison",
+  "title": "A small number of samples can poison LLMs of any size",
+  "title_source": "listing",
+  "published": "2025-10-09",
+  "lastmod": "2026-09-10T18:44:43.000Z",
+  "summary": null,
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

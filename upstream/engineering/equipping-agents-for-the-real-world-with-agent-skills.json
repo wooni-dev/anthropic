@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+  "section": "engineering",
+  "slug": "equipping-agents-for-the-real-world-with-agent-skills",
+  "title": "Equipping agents for the real world with Agent Skills",
+  "title_source": "listing",
+  "published": "2025-10-16",
+  "lastmod": "2026-04-15T14:39:01.000Z",
+  "summary": "Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents using files and folders.",
+  "subjects": [
+    "Architecture"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

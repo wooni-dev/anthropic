@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "section": "research",
+  "slug": "investigating-unintended-model-actions",
+  "title": "Investigating unintended model actions in our evaluations and internal use",
+  "title_source": "listing",
+  "published": "2026-10-09",
+  "lastmod": "2026-10-09T22:04:00.000Z",
+  "summary": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.",
+  "subjects": [
+    "Alignment"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

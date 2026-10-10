@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+  "section": "news",
+  "slug": "claude-science-ai-workbench",
+  "title": "Claude Science, an AI workbench for scientists, is now available",
+  "title_source": "listing",
+  "published": "2026-06-30",
+  "lastmod": "2026-09-09T15:24:20.000Z",
+  "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
+  "subjects": [
+    "Announcements",
+    "Beneficial Deployments"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

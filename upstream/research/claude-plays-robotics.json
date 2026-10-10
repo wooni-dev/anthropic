@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/claude-plays-robotics",
+  "section": "research",
+  "slug": "claude-plays-robotics",
+  "title": "Claude plays robotics",
+  "title_source": "listing",
+  "published": "2026-07-09",
+  "lastmod": "2026-08-26T21:22:31.000Z",
+  "summary": "In project Fetch, we examined how humans can use models to get robots to perform complex tasks. Now, we investigate many models on a large variety of different robotics tasks in simulation, to see how good models are at controlling robots themselves.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

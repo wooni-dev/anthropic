@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/impact-software-development",
+  "section": "research",
+  "slug": "impact-software-development",
+  "title": "Anthropic Economic Index: AI’s impact on software development",
+  "title_source": "listing",
+  "published": "2025-04-28",
+  "lastmod": "2026-09-11T11:56:53.000Z",
+  "summary": "Claude Code shows 79% automation versus 49% on Claude.ai. Web development dominates usage, and startups adopt agentic tools faster than enterprises—patterns previewing AI's impact on other occupations.",
+  "subjects": [
+    "Societal Impacts",
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

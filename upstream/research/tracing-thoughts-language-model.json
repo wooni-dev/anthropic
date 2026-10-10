@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/tracing-thoughts-language-model",
+  "section": "research",
+  "slug": "tracing-thoughts-language-model",
+  "title": "Tracing the thoughts of a large language model",
+  "title_source": "listing",
+  "published": "2025-03-27",
+  "lastmod": "2026-07-08T22:16:10.000Z",
+  "summary": "Circuit tracing lets us watch Claude think, uncovering a shared conceptual space where reasoning happens before being translated into language—suggesting the model can learn something in one language and apply it in another.",
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

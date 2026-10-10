@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/zero-days",
+  "section": "research",
+  "slug": "zero-days",
+  "title": "Evaluating and mitigating the growing risk of LLM-discovered 0-days",
+  "title_source": "listing",
+  "published": "2026-02-05",
+  "lastmod": "2026-09-09T21:29:19.000Z",
+  "summary": "AI models can now find high-severity vulnerabilities at scale. This is a moment to empower defenders. We're now using Claude to find and help fix vulnerabilities in open source software.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

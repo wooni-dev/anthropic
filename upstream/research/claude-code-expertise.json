@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/claude-code-expertise",
+  "section": "research",
+  "slug": "claude-code-expertise",
+  "title": "Agentic coding and persistent returns to expertise",
+  "title_source": "listing",
+  "published": "2026-06-16",
+  "lastmod": "2026-08-25T16:13:14.000Z",
+  "summary": "This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.",
+  "subjects": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

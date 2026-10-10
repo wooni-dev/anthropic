@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/anthropic-interviewer",
+  "section": "research",
+  "slug": "anthropic-interviewer",
+  "title": "Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI",
+  "title_source": "listing",
+  "published": "2025-12-04",
+  "lastmod": "2026-07-08T18:48:57.000Z",
+  "summary": "We built an interview tool called Anthropic Interviewer. Powered by Claude, Anthropic Interviewer runs detailed interviews automatically and at unprecedented scale.",
+  "subjects": [
+    "Societal Impacts"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/open-source-circuit-tracing",
+  "section": "research",
+  "slug": "open-source-circuit-tracing",
+  "title": "Open-sourcing circuit tracing tools",
+  "title_source": "listing",
+  "published": "2025-05-29",
+  "lastmod": "2025-05-29T16:14:52.000Z",
+  "summary": null,
+  "subjects": [
+    "Interpretability"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+  "section": "research",
+  "slug": "claude-uplifts-biomolecular-modeling",
+  "title": "How Claude is uplifting biomolecular modeling",
+  "title_source": "listing",
+  "published": "2026-09-17",
+  "lastmod": "2026-09-21T23:14:52.000Z",
+  "summary": "Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.",
+  "subjects": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

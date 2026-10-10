@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+  "section": "news",
+  "slug": "life-sciences-verification-program",
+  "title": "Introducing the Life Sciences Verification Program",
+  "title_source": "listing",
+  "published": "2026-09-17",
+  "lastmod": "2026-09-30T22:54:30.000Z",
+  "summary": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

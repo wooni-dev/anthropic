@@ -1,0 +1,17 @@
+{
+  "url": "https://www.anthropic.com/research/project-vend-2",
+  "section": "research",
+  "slug": "project-vend-2",
+  "title": "Project Vend: Phase two",
+  "title_source": "listing",
+  "published": "2025-12-18",
+  "lastmod": "2026-07-08T18:47:14.000Z",
+  "summary": "In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?",
+  "subjects": [
+    "Policy",
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}

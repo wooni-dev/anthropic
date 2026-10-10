@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/news/claude-opus-4-5",
+  "section": "news",
+  "slug": "claude-opus-4-5",
+  "title": "Introducing Claude Opus 4.5",
+  "title_source": "listing",
+  "published": "2025-11-24",
+  "lastmod": "2026-09-10T18:19:12.000Z",
+  "summary": "The best model in the world for coding, agents, and computer use, with meaningful improvements to everyday tasks like slides and spreadsheets. Claude Opus 4.5 delivers frontier performance and dramatically improved token efficiency.",
+  "subjects": [
+    "Announcements"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-10",
+  "removed_at": null
+}
