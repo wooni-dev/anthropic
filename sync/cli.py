@@ -180,6 +180,13 @@ def pull(targets):
               f"이미 있음 {r['cached']} · 실패 {len(r['failed'])}")
         for f in r["failed"]:
             print(f"  ! {f}")
+        try:
+            from sync import extract
+            m = extract.extract(rec)
+            print(f"  본문 {m['path']} ({m['chars']:,}자)")
+        except Exception as e:
+            print(f"  ! 본문 추출 실패 ({e})")
+            code = 1
     return code
 
 
