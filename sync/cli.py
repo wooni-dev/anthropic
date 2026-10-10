@@ -1,12 +1,15 @@
 """목록 동기화 명령.
 
-    python -m sync.cli fetch                   원격(anthropic.com) 목록을 upstream/ 에 반영
+    python -m sync.cli fetch                   원격(anthropic.com) 목록을 upstream/ 에 반영하고 커밋
     python -m sync.cli fetch --refresh-titles  모든 글의 제목·날짜를 목록 페이지로 다시 확인
+    python -m sync.cli fetch --no-commit       파일만 바꾸고 커밋은 하지 않음
 
 존재 여부는 sitemap 만 기준으로 하고, 목록 페이지는 제목·날짜·소개·주제를 채우는 데만 쓴다.
+커밋은 upstream/ 만 대상으로 하며, push 는 하지 않는다.
 """
 
 import argparse
+import subprocess
 import sys
 import tomllib
 from datetime import date
@@ -23,7 +26,29 @@ def slug_title(slug):
     return words[:1].upper() + words[1:]
 
 
-def fetch(refresh_titles=False):
+def git(*args, stdin=None):
+    return subprocess.run(["git", *args], input=stdin, capture_output=True,
+                          text=True, encoding="utf-8")
+
+
+def commit(changes):
+    """upstream/ 에 실제 변경이 있을 때만 커밋한다. 커밋 해시(짧은 것) 또는 None."""
+    git("add", "-A", "--", store.ROOT)
+    if not git("status", "--porcelain", "--", store.ROOT).stdout.strip():
+        return None
+    counts = {k: len(v) for k, v in changes.items()}
+    lines = [f"fetch: +{counts['new']} ~{counts['modified']} -{counts['removed']}"
+             + (f" ^{counts['returned']}" if counts["returned"] else ""), ""]
+    for label, urls in changes.items():
+        lines += [f"{label + ':':10}{u.split('anthropic.com/')[1]}" for u in urls]
+    r = git("commit", "-q", "-F", "-", "--", store.ROOT, stdin="\n".join(lines) + "\n")
+    if r.returncode != 0:
+        print(f"경고: 커밋 실패 ({r.stderr.strip()}). 파일은 바뀐 상태로 남아 있다.")
+        return None
+    return git("rev-parse", "--short", "HEAD").stdout.strip()
+
+
+def fetch(refresh_titles=False, do_commit=True):
     with open(CONFIG, "rb") as f:
         cfg = tomllib.load(f)
     today = date.today().isoformat()
@@ -92,6 +117,11 @@ def fetch(refresh_titles=False):
             print(f"  {label:9} {u.split('anthropic.com/')[1]}")
         if len(urls) > 20:
             print(f"  {label:9} … 외 {len(urls) - 20}개")
+
+    # [9] 커밋
+    if do_commit and written:
+        sha = commit({"new": new, "modified": modified, "removed": removed, "returned": returned})
+        print(f"커밋: {sha}" if sha else "커밋 없음 (실제 변경 없음)")
     return 0
 
 
@@ -100,9 +130,10 @@ def main(argv=None):
     sub = ap.add_subparsers(dest="command", required=True)
     p = sub.add_parser("fetch", help="원격 목록을 upstream/ 에 반영")
     p.add_argument("--refresh-titles", action="store_true", help="모든 글의 제목·날짜를 다시 확인")
+    p.add_argument("--no-commit", action="store_true", help="파일만 바꾸고 커밋하지 않음")
     args = ap.parse_args(argv)
     if args.command == "fetch":
-        return fetch(args.refresh_titles)
+        return fetch(args.refresh_titles, not args.no_commit)
 
 
 if __name__ == "__main__":
