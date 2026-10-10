@@ -5,6 +5,7 @@
     python -m sync.cli fetch --no-commit       파일만 바꾸고 커밋은 하지 않음
     python -m sync.cli status                  upstream/ 현황 요약 (네트워크 사용 안 함)
     python -m sync.cli pull 섹션/slug ...      글 페이지를 리소스까지 받아 local/ 에 보관
+    python -m sync.cli verify 섹션/slug ...    보관한 페이지를 실제 사이트와 브라우저로 비교
 
 존재 여부는 sitemap 만 기준으로 하고, 목록 페이지는 제목·날짜·소개·주제를 채우는 데만 쓴다.
 커밋은 upstream/ 만 대상으로 하며, push 는 하지 않는다.
@@ -190,6 +191,36 @@ def pull(targets):
     return code
 
 
+def verify(targets):
+    """보관한 페이지를 실제 사이트와 브라우저로 비교한다."""
+    from sync import verify as verifier
+
+    records = {f"{r['section']}/{r['slug']}": r for r in store.load_all().values()}
+    code = 0
+    for target in targets:
+        rec = records.get(target)
+        if not rec:
+            print(f"{target}: upstream/ 에 없는 글")
+            code = 1
+            continue
+        try:
+            r = verifier.verify(rec)
+        except Exception as e:
+            print(f"{target}: 검증 실패 ({e})")
+            code = 1
+            continue
+        print(f"{target}: {'통과' if r['passed'] else '불일치'}")
+        print(f"  본문 일치율 {r['ratio']:.2%} (실제 {r['live_words']:,}단어 / 로컬 {r['local_words']:,}단어,"
+              f" 빠짐 {r['missing_words']} · 추가 {r['extra_words']})")
+        print(f"  이미지 {r['images_ok']}/{r['images_total']} 표시 · 폰트 로드 {r['fonts_loaded']}"
+              f" (오류 {r['fonts_error']}) · 막힌 외부 요청 {r['blocked_requests']}")
+        for u in r["blocked_sample"]:
+            print(f"    ! {u[:120]}")
+        print(f"  스크린샷 {r['shots'][0]} / {r['shots'][1]}")
+        code = code or (0 if r["passed"] else 1)
+    return code
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="python -m sync.cli")
     sub = ap.add_subparsers(dest="command", required=True)
@@ -199,9 +230,13 @@ def main(argv=None):
     sub.add_parser("status", help="upstream/ 현황 요약")
     p = sub.add_parser("pull", help="글 페이지를 리소스까지 받아 local/ 에 보관")
     p.add_argument("targets", nargs="+", metavar="섹션/slug", help="예: engineering/contextual-retrieval")
+    p = sub.add_parser("verify", help="보관한 페이지를 실제 사이트와 브라우저로 비교")
+    p.add_argument("targets", nargs="+", metavar="섹션/slug")
     args = ap.parse_args(argv)
     if args.command == "pull":
         return pull(args.targets)
+    if args.command == "verify":
+        return verify(args.targets)
     if args.command == "fetch":
         return fetch(args.refresh_titles, not args.no_commit)
     if args.command == "status":
