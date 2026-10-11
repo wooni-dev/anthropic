@@ -4,7 +4,8 @@
     python -m sync.cli fetch --refresh-titles  모든 글의 제목·날짜를 목록 페이지로 다시 확인
     python -m sync.cli fetch --no-commit       파일만 바꾸고 커밋은 하지 않음
     python -m sync.cli status                  upstream/ 현황 요약 (네트워크 사용 안 함)
-    python -m sync.cli pull 섹션/slug ...      글 페이지를 리소스까지 받아 local/ 에 보관
+    python -m sync.cli pull                    pull_sections 의 안 받은 글·원문이 수정된 글을 받음
+    python -m sync.cli pull 섹션/slug ...      지정한 글만 받음
     python -m sync.cli verify 섹션/slug ...    보관한 페이지를 실제 사이트와 브라우저로 비교
 
 존재 여부는 sitemap 만 기준으로 하고, 목록 페이지는 제목·날짜·소개·주제를 채우는 데만 쓴다.
@@ -156,38 +157,82 @@ def status():
     for r in records.values():
         sources[r.get("title_source")] = sources.get(r.get("title_source"), 0) + 1
     print("제목 출처: " + " · ".join(f"{k} {v}" for k, v in sorted(sources.items(), key=str)))
+
+    from sync import archive
+    pull_sections = cfg.get("pull_sections", [])
+    if pull_sections:
+        print("본문 보관 (local/):")
+    for section in pull_sections:
+        recs = [r for r in records.values() if r["section"] == section]
+        states = {"current": 0, "modified": 0, "missing": 0}
+        orphan = 0
+        for r in recs:
+            s = archive.local_state(r)
+            if r["state"] == "removed":
+                orphan += s != "missing"   # 원격에서 사라졌지만 로컬 사본은 있음
+            else:
+                states[s] += 1
+        print(f"  {section:12} 최신 {states['current']} · 원문 수정됨 {states['modified']}"
+              f" · 안 받음 {states['missing']}" + (f" · 원격 삭제(사본만 남음) {orphan}" if orphan else ""))
     return 0
 
 
-def pull(targets):
-    """지정한 글(섹션/slug)의 페이지를 리소스까지 받아 local/ 에 보관한다."""
-    from sync import archive
+def pull(targets, limit=0):
+    """글 페이지를 리소스까지 받아 local/ 에 보관하고 본문을 마크다운으로 뽑는다.
+
+    targets 를 주면 그 글만, 안 주면 sync.toml 의 pull_sections 에서
+    아직 안 받은 글(missing)과 받은 뒤 원문이 수정된 글(modified)만 받는다.
+    """
+    import time
+
+    from sync import archive, extract
 
     records = {f"{r['section']}/{r['slug']}": r for r in store.load_all().values()}
     code = 0
-    for target in targets:
-        rec = records.get(target)
-        if not rec:
-            print(f"{target}: upstream/ 에 없는 글. fetch 를 먼저 했는지, 이름이 맞는지 확인할 것")
-            code = 1
-            continue
+    if targets:
+        todo = []
+        for t in targets:
+            if t in records:
+                todo.append(records[t])
+            else:
+                print(f"{t}: upstream/ 에 없는 글. fetch 를 먼저 했는지, 이름이 맞는지 확인할 것")
+                code = 1
+    else:
+        with open(CONFIG, "rb") as f:
+            sections = tomllib.load(f).get("pull_sections", [])
+        todo = [r for r in sorted(records.values(), key=lambda r: (r["section"], r["published"] or ""))
+                if r["section"] in sections and r["state"] == "active"
+                and archive.local_state(r) != "current"]
+        print(f"pull 대상 {len(todo)}개 (범위: {', '.join(sections) or '없음'})")
+    if limit:
+        todo = todo[:limit]
+
+    counts = {"ok": 0, "failed": 0, "new": 0, "body_changed": 0, "body_same": 0}
+    for i, rec in enumerate(todo):
+        target = f"{rec['section']}/{rec['slug']}"
+        before = archive.local_state(rec)
         try:
             r = archive.archive(rec)
+            m = extract.extract(rec)
         except Exception as e:
-            print(f"{target}: 실패 ({e})")
+            print(f"{target}: 실패 ({e}) — 다음 pull 때 다시 시도")
+            counts["failed"] += 1
             code = 1
             continue
-        print(f"{target}: 저장 {r['path']} · 리소스 새로 받음 {r['downloaded']} · "
-              f"이미 있음 {r['cached']} · 실패 {len(r['failed'])}")
+        counts["ok"] += 1
+        kind = "new" if m["first_time"] else ("body_changed" if m["body_changed"] else "body_same")
+        counts[kind] += 1
+        label = {"new": "새로 받음", "body_changed": "본문 바뀜", "body_same": "본문 그대로"}[kind]
+        print(f"{target}: {label} ({before}) · 본문 {m['chars']:,}자 · 리소스 새로 받음 {r['downloaded']}"
+              + (f" · 리소스 실패 {len(r['failed'])}" if r["failed"] else "")
+              + (f" · 원격에서도 깨진 CSS 링크 제거 {len(r['dropped'])}" if r["dropped"] else ""))
         for f in r["failed"]:
             print(f"  ! {f}")
-        try:
-            from sync import extract
-            m = extract.extract(rec)
-            print(f"  본문 {m['path']} ({m['chars']:,}자)")
-        except Exception as e:
-            print(f"  ! 본문 추출 실패 ({e})")
-            code = 1
+        if i + 1 < len(todo):
+            time.sleep(1)  # 사이트에 부담을 주지 않도록 글 사이에 쉰다
+    if len(todo) > 1:
+        print(f"완료 {counts['ok']} (새로 {counts['new']} · 본문 바뀜 {counts['body_changed']}"
+              f" · 본문 그대로 {counts['body_same']}) · 실패 {counts['failed']}")
     return code
 
 
@@ -229,12 +274,14 @@ def main(argv=None):
     p.add_argument("--no-commit", action="store_true", help="파일만 바꾸고 커밋하지 않음")
     sub.add_parser("status", help="upstream/ 현황 요약")
     p = sub.add_parser("pull", help="글 페이지를 리소스까지 받아 local/ 에 보관")
-    p.add_argument("targets", nargs="+", metavar="섹션/slug", help="예: engineering/contextual-retrieval")
+    p.add_argument("targets", nargs="*", metavar="섹션/slug",
+                   help="예: engineering/contextual-retrieval. 생략하면 pull_sections 의 안 받은·수정된 글")
+    p.add_argument("--limit", type=int, default=0, help="이번에 받을 최대 개수")
     p = sub.add_parser("verify", help="보관한 페이지를 실제 사이트와 브라우저로 비교")
     p.add_argument("targets", nargs="+", metavar="섹션/slug")
     args = ap.parse_args(argv)
     if args.command == "pull":
-        return pull(args.targets)
+        return pull(args.targets, args.limit)
     if args.command == "verify":
         return verify(args.targets)
     if args.command == "fetch":

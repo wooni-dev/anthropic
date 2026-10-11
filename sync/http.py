@@ -13,6 +13,12 @@ def get(url):
 
 def get_with_type(url):
     """url 을 받아 (bytes, Content-Type) 으로 돌려준다."""
+    data, ctype, _ = get_full(url)
+    return data, ctype
+
+
+def get_full(url):
+    """url 을 받아 (bytes, Content-Type, 리디렉션 후 최종 주소) 로 돌려준다."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
-        return resp.read(), resp.headers.get("Content-Type", "")
+        return resp.read(), resp.headers.get("Content-Type", ""), resp.geturl()

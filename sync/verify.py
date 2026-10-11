@@ -15,6 +15,7 @@ import re
 from playwright.sync_api import sync_playwright
 
 from sync import archive
+from sync.extract import BODY_SELECTORS
 
 SHOT_DIR = os.path.join(archive.ROOT, "_verify")
 PASS_RATIO = 0.99
@@ -25,8 +26,12 @@ def words(text):
 
 
 def article_text(page):
-    loc = page.locator("article")
-    return loc.first.inner_text() if loc.count() else ""
+    """extract 와 같은 순서로 본문 영역을 찾아 화면 텍스트를 돌려준다."""
+    for sel in BODY_SELECTORS:
+        loc = page.locator(sel)
+        if loc.count():
+            return loc.first.inner_text()
+    return ""
 
 
 def load_lazy_images(page):

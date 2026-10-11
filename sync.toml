@@ -6,3 +6,6 @@ sections = ["engineering", "news", "research"]
 
 # 목록에서 뺄 URL 패턴 (지금은 없음)
 exclude = []
+
+# 본문(페이지·이미지·CSS·폰트)까지 받아 local/ 에 보관할 섹션
+pull_sections = ["engineering"]

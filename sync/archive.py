@@ -20,7 +20,6 @@ from sync import http
 ROOT = "local"
 ASSET_DIR = os.path.join(ROOT, "assets")
 ASSET_MAP = os.path.join(ROOT, "assets.json")
-SITE = "https://www.anthropic.com"
 
 EXT_BY_TYPE = {
     "image/webp": "webp", "image/png": "png", "image/jpeg": "jpg", "image/gif": "gif",
@@ -37,6 +36,28 @@ CSS_IMPORT = re.compile(r'@import\s+([\'"])([^\'"]+)\1')
 
 def page_path(section, slug):
     return os.path.join(ROOT, section, slug + ".html")
+
+
+def pulled_lastmod(section, slug):
+    """보관본에 적어 둔 '받을 당시의 lastmod'. 보관본이 없으면 None."""
+    path = page_path(section, slug)
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        m = re.search(r'<meta name="archive:lastmod" content="([^"]*)">', f.read(20000))
+    return m.group(1) if m else ""
+
+
+def local_state(record):
+    """missing(아직 안 받음) · modified(받은 뒤 원문 lastmod 가 바뀜) · current(최신).
+
+    HTML 과 본문 마크다운이 둘 다 있어야 '받은 것'으로 본다.
+    """
+    pulled = pulled_lastmod(record["section"], record["slug"])
+    md = os.path.join(ROOT, record["section"], record["slug"] + ".md")
+    if pulled is None or not os.path.exists(md):
+        return "missing"
+    return "current" if pulled == (record.get("lastmod") or "") else "modified"
 
 
 def load_map():
@@ -87,8 +108,12 @@ def fetch_asset(url, amap, stats, depth=0):
     return name
 
 
-def localize_css(css, css_url, amap, stats, depth):
-    """CSS 안의 url(...) 과 @import 를 같은 assets/ 폴더의 파일 이름으로 바꾼다."""
+def localize_css(css, css_url, amap, stats, depth, prefix=""):
+    """CSS 안의 url(...) 과 @import 를 assets/ 폴더의 파일로 바꾼다.
+
+    prefix: CSS 가 있는 위치에서 assets/ 까지의 경로. assets/ 안의 CSS 파일이면 "",
+            HTML 안의 <style> 블록이면 "../assets/".
+    """
     def swap(target):
         # "#c" 나 "%23c" 는 인라인 SVG 안의 내부 참조라 받을 파일이 아니다
         if target.startswith(("data:", "#", "%23")):
@@ -101,21 +126,24 @@ def localize_css(css, css_url, amap, stats, depth):
 
     def url_sub(m):
         name = swap(m.group(2).strip())
-        return f"url({name})" if name else m.group(0)
+        return f"url({prefix}{name})" if name else m.group(0)
 
     def import_sub(m):
         name = swap(m.group(2))
-        return f'@import "{name}"' if name else m.group(0)
+        return f'@import "{prefix}{name}"' if name else m.group(0)
 
     return CSS_URL.sub(url_sub, CSS_IMPORT.sub(import_sub, css))
 
 
 def archive(record):
     """upstream 레코드 하나의 페이지를 받아 local/ 에 저장한다. 결과 요약 dict 를 돌려준다."""
-    url = record["url"]
-    page = http.get(url).decode("utf-8")
+    data, _, final_url = http.get_full(record["url"])
+    page = data.decode("utf-8")
+    # 다른 사이트로 리디렉션되는 글이 있다 (예: Claude Code 문서). 상대 경로는 최종 주소 기준으로 푼다
+    url = final_url
+    origin = "{0.scheme}://{0.netloc}".format(urlsplit(final_url))
     amap = load_map()
-    stats = {"downloaded": 0, "cached": 0, "failed": []}
+    stats = {"downloaded": 0, "cached": 0, "failed": [], "dropped": []}
 
     def local_ref(raw):
         """속성값(HTML 이스케이프됨) → ../assets/파일. 실패하면 None."""
@@ -131,11 +159,35 @@ def archive(record):
     # 1) 이미지·영상
     page = MEDIA_ATTR.sub(lambda m: m.group(1) + (local_ref(m.group(2)) or m.group(2)) + m.group(3), page)
 
-    # 2) CSS 파일
+    # 2) CSS 파일. 원격이 4xx 로 거부하는 링크는 실제 사이트에서도 깨진 것이라 지운다
     def css_link(m):
         tag = m.group(0)
-        return HREF.sub(lambda h: h.group(1) + (local_ref(h.group(2)) or h.group(2)) + h.group(3), tag, count=1)
+        h = HREF.search(tag)
+        if not h:
+            return tag
+        before = len(stats["failed"])
+        ref = local_ref(h.group(2))
+        if ref:
+            return tag[:h.start(2)] + ref + tag[h.end(2):]
+        if len(stats["failed"]) > before and re.search(r"HTTP Error 4\d\d", stats["failed"][-1]):
+            stats["dropped"].append(stats["failed"].pop())
+            return ""
+        return tag
     page = STYLESHEET.sub(css_link, page)
+
+    # 2-2) HTML 안의 <style> 블록 (문서 사이트는 여기서 @font-face 로 폰트를 부른다)
+    page = re.sub(r"(<style\b[^>]*>)(.*?)(</style>)",
+                  lambda m: m.group(1) + localize_css(m.group(2), url, amap, stats, 1, "../assets/") + m.group(3),
+                  page, flags=re.I | re.S)
+
+    # 2-3) 태그의 style="..." 속성 (문서 사이트의 아이콘이 mask-image:url(...) 로 들어 있다)
+    def style_attr(m):
+        css = htmllib.unescape(m.group(2))
+        if "url(" not in css:
+            return m.group(0)
+        new = localize_css(css, url, amap, stats, 1, "../assets/")
+        return m.group(1) + htmllib.escape(new, quote=True) + m.group(3)
+    page = re.sub(r'(\sstyle=")([^"]*)(")', style_attr, page, flags=re.I)
 
     # 3) 오프라인에서 방해되는 것 제거
     page = re.sub(r'\ssrcset="[^"]*"', "", page, flags=re.I)          # Next.js 는 srcSet 으로 쓴다
@@ -144,10 +196,11 @@ def archive(record):
     page = re.sub(r'<link\b[^>]*\brel="(?:preload|modulepreload|prefetch)"[^>]*>', "", page, flags=re.I)
 
     # 4) 남은 사이트 내부 링크는 원문으로 가게 절대주소로
-    page = re.sub(r'(\shref=")/(?!/)', r"\1" + SITE + "/", page)
+    page = re.sub(r'(\shref=")/(?!/)', r"\1" + origin + "/", page)
 
     # 5) 보관 정보: lastmod 는 나중에 upstream 과 비교해 '오래된 사본'인지 판단하는 데 쓴다
-    meta = (f'<meta name="archive:url" content="{htmllib.escape(url)}">'
+    meta = (f'<meta name="archive:url" content="{htmllib.escape(record["url"])}">'
+            f'<meta name="archive:final_url" content="{htmllib.escape(final_url)}">'
             f'<meta name="archive:lastmod" content="{record.get("lastmod") or ""}">'
             f'<meta name="archive:pulled_at" content="{datetime.now().isoformat(timespec="seconds")}">')
     page = re.sub(r"<head\b[^>]*>", lambda m: m.group(0) + meta, page, count=1)
