@@ -5,7 +5,7 @@
   "title": "Investigating unintended model actions in our evaluations and internal use",
   "title_source": "listing",
   "published": "2026-10-09",
-  "lastmod": "2026-10-10T11:53:28.000Z",
+  "lastmod": "2026-10-12T15:52:32.000Z",
   "summary": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.",
   "subjects": [
     "Alignment"

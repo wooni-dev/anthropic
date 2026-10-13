@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/self-replicating-ai",
+  "section": "research",
+  "slug": "self-replicating-ai",
+  "title": "AI models may be capable of self-replicating without access to a datacenter",
+  "title_source": "listing",
+  "published": "2026-10-12",
+  "lastmod": "2026-10-13T00:44:16.000Z",
+  "summary": "Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-13",
+  "removed_at": null
+}
