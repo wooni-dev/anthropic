@@ -5,9 +5,11 @@
   "title": "Strengthening our defenses against distillation attacks",
   "title_source": "listing",
   "published": "2026-10-12",
-  "lastmod": "2026-10-13T08:36:20.000Z",
+  "lastmod": "2026-10-13T14:34:43.000Z",
   "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-  "subjects": [],
+  "subjects": [
+    "Policy"
+  ],
   "state": "active",
   "first_seen": "2026-10-13",
   "removed_at": null
