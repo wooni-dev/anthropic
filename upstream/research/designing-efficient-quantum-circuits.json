@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+  "section": "research",
+  "slug": "designing-efficient-quantum-circuits",
+  "title": "Designing more efficient quantum circuits with Claude",
+  "title_source": "listing",
+  "published": "2026-10-16",
+  "lastmod": "2026-10-16T17:32:09.000Z",
+  "summary": "We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.",
+  "subjects": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-17",
+  "removed_at": null
+}

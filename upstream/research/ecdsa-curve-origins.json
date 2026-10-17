@@ -1,0 +1,16 @@
+{
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "section": "research",
+  "slug": "ecdsa-curve-origins",
+  "title": "Claude reveals ECDSA curve origins",
+  "title_source": "listing",
+  "published": "2026-10-16",
+  "lastmod": "2026-10-16T22:38:50.000Z",
+  "summary": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.",
+  "subjects": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-10-17",
+  "removed_at": null
+}
