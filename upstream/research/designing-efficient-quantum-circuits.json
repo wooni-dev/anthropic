@@ -5,7 +5,7 @@
   "title": "Designing more efficient quantum circuits with Claude",
   "title_source": "listing",
   "published": "2026-10-16",
-  "lastmod": "2026-10-16T17:32:09.000Z",
+  "lastmod": "2026-10-17T14:17:25.000Z",
   "summary": "We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.",
   "subjects": [
     "Science"
