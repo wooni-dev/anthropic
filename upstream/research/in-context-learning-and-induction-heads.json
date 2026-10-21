@@ -5,7 +5,7 @@
   "title": "In-context learning and induction heads",
   "title_source": "listing",
   "published": "2022-03-08",
-  "lastmod": "2026-09-09T19:13:29.000Z",
+  "lastmod": "2026-09-28T03:21:43.000Z",
   "summary": "\"Induction heads\" complete sequences like [A][B]...[A] → [B]. They may be the mechanistic source of most in-context learning in transformers.",
   "subjects": [
     "Interpretability",

@@ -5,7 +5,7 @@
   "title": "Making frontier cybersecurity capabilities available to defenders",
   "title_source": "listing",
   "published": "2026-02-20",
-  "lastmod": "2026-02-20T17:59:33.000Z",
+  "lastmod": "2026-10-14T23:57:30.000Z",
   "summary": "Claude Code Security, a new capability built into Claude Code on the web, is now available in a limited research preview. It scans codebases for security vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix security issues that traditional methods often miss.",
   "subjects": [
     "Announcements"

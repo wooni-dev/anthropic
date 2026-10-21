@@ -5,7 +5,7 @@
   "title": "Signs of introspection in large language models",
   "title_source": "listing",
   "published": "2025-10-29",
-  "lastmod": "2026-09-10T18:32:35.000Z",
+  "lastmod": "2026-10-09T17:00:55.000Z",
   "summary": "Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect.",
   "subjects": [
     "Interpretability"

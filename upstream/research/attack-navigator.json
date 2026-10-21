@@ -5,7 +5,7 @@
   "title": "Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator",
   "title_source": "listing",
   "published": "2026-06-03",
-  "lastmod": "2026-09-09T15:39:21.000Z",
+  "lastmod": "2026-10-13T00:54:59.000Z",
   "summary": "We’ve spent the past year investigating how threat actors are weaponizing AI to conduct cyber operations. Today, we’re sharing a new analysis that maps these real-world attacks onto the MITRE ATT&CK framework.",
   "subjects": [
     "Frontier Red Team"

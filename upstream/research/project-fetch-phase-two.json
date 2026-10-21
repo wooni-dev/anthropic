@@ -5,7 +5,7 @@
   "title": "Project Fetch: Phase two",
   "title_source": "listing",
   "published": "2026-06-18",
-  "lastmod": "2026-06-26T12:28:05.000Z",
+  "lastmod": "2026-10-20T01:19:31.000Z",
   "summary": "We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.",
   "subjects": [
     "Frontier Red Team"

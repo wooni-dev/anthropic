@@ -5,7 +5,7 @@
   "title": "Claude-shaped science",
   "title_source": "listing",
   "published": "2026-10-01",
-  "lastmod": "2026-10-01T18:50:14.000Z",
+  "lastmod": "2026-10-08T22:29:24.000Z",
   "summary": "Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
   "subjects": [
     "Science"

@@ -5,7 +5,7 @@
   "title": "Discovering cryptographic weaknesses with Claude",
   "title_source": "listing",
   "published": "2026-07-28",
-  "lastmod": "2026-07-29T14:10:25.000Z",
+  "lastmod": "2026-10-13T18:19:21.000Z",
   "summary": "cryptographic algorithms. The first attack significantly weakens HAWK, a digital signature scheme that was built for a future world where quantum computers are able to break existing standards. The second identifies a new way to attack round-reduced AES, the most widely used symmetric cipher.",
   "subjects": [
     "Frontier Red Team"

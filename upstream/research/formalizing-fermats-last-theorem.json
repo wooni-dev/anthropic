@@ -5,7 +5,7 @@
   "title": "Formalizing Fermat's Last Theorem",
   "title_source": "listing",
   "published": "2026-09-04",
-  "lastmod": "2026-09-10T19:05:29.000Z",
+  "lastmod": "2026-10-14T04:10:16.000Z",
   "summary": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.",
   "subjects": [
     "Science"

@@ -5,7 +5,7 @@
   "title": "Auditing language models for hidden objectives",
   "title_source": "listing",
   "published": "2025-03-13",
-  "lastmod": "2025-11-20T16:15:19.000Z",
+  "lastmod": "2026-10-20T15:26:24.000Z",
   "summary": "How would we know if an AI system is \"right for the wrong reasons\"—appearing well-behaved while pursuing hidden goals? This paper develops the science of alignment audits by deliberately training a model with a hidden objective and asking blinded research teams to uncover it, testing techniques from interpretability to behavioral analysis.",
   "subjects": [
     "Alignment",

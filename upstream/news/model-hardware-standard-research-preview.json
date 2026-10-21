@@ -5,12 +5,9 @@
   "title": "Previewing the Model Hardware Standard",
   "title_source": "listing",
   "published": "2026-08-27",
-  "lastmod": "2026-08-29T10:57:56.000Z",
+  "lastmod": "2026-10-13T01:56:42.000Z",
   "summary": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
-  "subjects": [
-    "Announcements",
-    "Beneficial Deployments"
-  ],
+  "subjects": [],
   "state": "active",
   "first_seen": "2026-10-10",
   "removed_at": null

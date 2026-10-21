@@ -5,7 +5,7 @@
   "title": "Automated researchers can reliably mitigate alignment failures",
   "title_source": "listing",
   "published": "2026-08-28",
-  "lastmod": "2026-08-28T17:02:17.000Z",
+  "lastmod": "2026-10-07T21:42:45.000Z",
   "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.",
   "subjects": [
     "Alignment"

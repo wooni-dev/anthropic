@@ -5,7 +5,7 @@
   "title": "Sycophancy to subterfuge: Investigating reward tampering in language models",
   "title_source": "listing",
   "published": "2024-06-17",
-  "lastmod": "2025-11-20T16:15:12.000Z",
+  "lastmod": "2026-10-09T16:53:32.000Z",
   "summary": "Can minor specification gaming evolve into more dangerous behaviors? This paper demonstrates that models trained on low-level reward hacking—like sycophancy—can generalize to tampering with their own reward functions, even covering their tracks. The behavior emerged without explicit training, and common safety techniques reduced but didn't eliminate it.",
   "subjects": [
     "Alignment"

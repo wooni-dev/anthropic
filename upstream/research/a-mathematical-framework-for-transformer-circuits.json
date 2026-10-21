@@ -5,7 +5,7 @@
   "title": "A Mathematical Framework for Transformer Circuits",
   "title_source": "listing",
   "published": "2021-12-22",
-  "lastmod": "2026-09-09T19:10:50.000Z",
+  "lastmod": "2026-09-28T03:21:42.000Z",
   "summary": "A framework for reverse engineering transformers, revealing how attention heads work as independent operations.",
   "subjects": [
     "Interpretability",

@@ -5,11 +5,9 @@
   "title": "An update on independent evaluators",
   "title_source": "listing",
   "published": "2026-10-15",
-  "lastmod": "2026-10-19T13:19:29.000Z",
+  "lastmod": "2026-10-20T03:29:34.000Z",
   "summary": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face.",
-  "subjects": [
-    "Announcements"
-  ],
+  "subjects": [],
   "state": "active",
   "first_seen": "2026-10-16",
   "removed_at": null

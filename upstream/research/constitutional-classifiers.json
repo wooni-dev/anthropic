@@ -5,7 +5,7 @@
   "title": "Constitutional Classifiers: Defending against universal jailbreaks",
   "title_source": "listing",
   "published": "2025-02-03",
-  "lastmod": "2026-08-26T20:45:34.000Z",
+  "lastmod": "2026-10-09T02:03:13.000Z",
   "summary": "These classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.",
   "subjects": [
     "Alignment"

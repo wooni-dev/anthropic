@@ -5,7 +5,7 @@
   "title": "AI models are showing a greater ability to find and exploit vulnerabilities on realistic cyber ranges",
   "title_source": "listing",
   "published": "2026-01-16",
-  "lastmod": "2026-09-09T21:44:37.000Z",
+  "lastmod": "2026-10-20T01:19:40.000Z",
   "summary": "In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations.",
   "subjects": [
     "Frontier Red Team"
