@@ -5,7 +5,7 @@
   "title": "Launching an opt-in vulnerability-finding service for open-source software",
   "title_source": "listing",
   "published": "2026-10-08",
-  "lastmod": "2026-10-21T17:13:25.000Z",
+  "lastmod": "2026-10-23T20:56:19.000Z",
   "summary": "We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.",
   "subjects": [
     "Frontier Red Team"

@@ -5,7 +5,7 @@
   "title": "Assessing Claude Mythos Preview’s cybersecurity capabilities",
   "title_source": "listing",
   "published": "2026-04-07",
-  "lastmod": "2026-10-18T21:25:44.000Z",
+  "lastmod": "2026-10-23T20:56:35.000Z",
   "summary": "Claude Mythos Preview is a new general-purpose language model that is strikingly capable at computer security tasks. This post provides technical details for researchers and practitioners who want to understand exactly how we have been testing this model, and what we have found over the past month.",
   "subjects": [
     "Frontier Red Team"

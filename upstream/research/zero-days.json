@@ -5,7 +5,7 @@
   "title": "Evaluating and mitigating the growing risk of LLM-discovered 0-days",
   "title_source": "listing",
   "published": "2026-02-05",
-  "lastmod": "2026-10-20T03:28:58.000Z",
+  "lastmod": "2026-10-23T20:56:39.000Z",
   "summary": "AI models can now find high-severity vulnerabilities at scale. This is a moment to empower defenders. We're now using Claude to find and help fix vulnerabilities in open source software.",
   "subjects": [
     "Frontier Red Team"

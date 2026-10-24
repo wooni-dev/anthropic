@@ -5,7 +5,7 @@
   "title": "Project Pilot: Can AI control a drone?",
   "title_source": "listing",
   "published": "2026-07-24",
-  "lastmod": "2026-10-13T00:37:35.000Z",
+  "lastmod": "2026-10-23T20:56:26.000Z",
   "summary": "Working with Andon Labs, we’ve developed a new series of evaluations that assess AI models’ ability to use a flying drone, culminating in a new benchmark: Drone-Bench.",
   "subjects": [
     "Frontier Red Team"

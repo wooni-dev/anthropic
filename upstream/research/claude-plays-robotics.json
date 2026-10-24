@@ -5,7 +5,7 @@
   "title": "Claude plays robotics",
   "title_source": "listing",
   "published": "2026-07-09",
-  "lastmod": "2026-10-13T00:47:16.000Z",
+  "lastmod": "2026-10-23T20:56:34.000Z",
   "summary": "In project Fetch, we examined how humans can use models to get robots to perform complex tasks. Now, we investigate many models on a large variety of different robotics tasks in simulation, to see how good models are at controlling robots themselves.",
   "subjects": [
     "Frontier Red Team"

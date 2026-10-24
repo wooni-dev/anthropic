@@ -5,7 +5,7 @@
   "title": "LLMs with cyber toolkits can conduct multistage cyber operations on business-sized computer networks",
   "title_source": "listing",
   "published": "2025-06-13",
-  "lastmod": "2026-10-13T01:39:41.000Z",
+  "lastmod": "2026-10-23T20:56:37.000Z",
   "summary": "Large Language Models (LLMs) that are not fine-tuned for cybersecurity can succeed in multistage attacks on networks with dozens of hosts when equipped with a novel toolkit.",
   "subjects": [
     "Frontier Red Team"

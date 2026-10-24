@@ -5,7 +5,7 @@
   "title": "Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned",
   "title_source": "listing",
   "published": "2022-08-22",
-  "lastmod": "2026-10-20T01:19:51.000Z",
+  "lastmod": "2026-10-23T20:56:31.000Z",
   "summary": "Early efforts to red team language models, investigate scaling behaviors, and release 38,961 red team attacks—helping develop shared norms for red teaming.",
   "subjects": [
     "Societal Impacts"
