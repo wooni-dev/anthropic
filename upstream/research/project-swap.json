@@ -8,9 +8,18 @@
   "lastmod": "2026-10-23T20:56:32.000Z",
   "summary": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.",
   "subjects": [
+    "understanding-ai",
+    "economy-and-society",
+    "anthropic",
+    "safety",
+    "Agents"
+  ],
+  "categories": [
     "Economics"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

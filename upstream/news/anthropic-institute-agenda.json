@@ -2,13 +2,20 @@
   "url": "https://www.anthropic.com/news/anthropic-institute-agenda",
   "section": "news",
   "slug": "anthropic-institute-agenda",
-  "title": "Anthropic institute agenda",
-  "title_source": "slug",
-  "published": null,
+  "title": "Focus areas for The Anthropic Institute",
+  "title_source": "listing",
+  "published": "2026-05-07",
   "lastmod": "2026-10-14T18:07:49.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "At The Anthropic Institute (TAI), we’ll be using the information we can access from within a frontier lab to investigate AI’s impact on the world, and sharing our learnings with the public. Here, we’re sharing the questions that drive our research agenda.",
+  "subjects": [
+    "Policy"
+  ],
+  "categories": [],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/research/anthropic-institute-agenda"
+  ],
+  "moved_to": null
 }

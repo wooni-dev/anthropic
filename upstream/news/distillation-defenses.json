@@ -7,8 +7,20 @@
   "published": "2026-10-12",
   "lastmod": "2026-10-17T05:44:23.000Z",
   "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-  "subjects": [],
+  "subjects": [
+    "safety",
+    "policy",
+    "understanding-ai",
+    "Safeguards"
+  ],
+  "categories": [
+    "safeguards"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-13",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/research/distillation-defenses"
+  ],
+  "moved_to": null
 }

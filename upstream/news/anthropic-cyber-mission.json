@@ -7,8 +7,19 @@
   "published": "2026-10-08",
   "lastmod": "2026-10-13T01:47:02.000Z",
   "summary": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.",
-  "subjects": [],
+  "subjects": [
+    "understanding-ai",
+    "anthropic",
+    "policy",
+    "beneficial-deployments",
+    "Cybersecurity"
+  ],
+  "categories": [
+    "security"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

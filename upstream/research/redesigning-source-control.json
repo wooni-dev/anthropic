@@ -2,13 +2,25 @@
   "url": "https://www.anthropic.com/research/redesigning-source-control",
   "section": "research",
   "slug": "redesigning-source-control",
-  "title": "Redesigning source control",
-  "title_source": "slug",
-  "published": null,
+  "title": "Redesigning source control at Anthropic",
+  "title_source": "listing",
+  "published": "2026-10-13",
   "lastmod": "2026-10-20T03:28:40.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.",
+  "subjects": [
+    "understanding-ai",
+    "economy-and-society",
+    "claude",
+    "Coding"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-14",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/redesigning-source-control"
+  ],
+  "moved_to": null
 }

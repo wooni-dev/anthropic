@@ -2,13 +2,24 @@
   "url": "https://www.anthropic.com/research/multi-agent-research-system",
   "section": "research",
   "slug": "multi-agent-research-system",
-  "title": "Multi agent research system",
-  "title_source": "slug",
-  "published": null,
+  "title": "How we built our multi-agent research system",
+  "title_source": "listing",
+  "published": "2025-06-13",
   "lastmod": "2026-10-09T06:14:11.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "Our Research feature uses multiple Claude agents to explore complex topics more effectively. We share the engineering challenges and the lessons we learned from building this system.",
+  "subjects": [
+    "understanding-ai",
+    "claude",
+    "Agents"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/multi-agent-research-system"
+  ],
+  "moved_to": null
 }

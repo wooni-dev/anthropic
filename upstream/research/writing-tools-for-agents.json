@@ -2,13 +2,25 @@
   "url": "https://www.anthropic.com/research/writing-tools-for-agents",
   "section": "research",
   "slug": "writing-tools-for-agents",
-  "title": "Writing tools for agents",
-  "title_source": "slug",
-  "published": null,
+  "title": "Writing effective tools for agents — with agents",
+  "title_source": "listing",
+  "published": "2025-09-11",
   "lastmod": "2026-10-13T18:18:21.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "In this post, we describe our most effective techniques for improving performance in a variety of agentic AI systems.",
+  "subjects": [
+    "claude",
+    "understanding-ai",
+    "economy-and-society",
+    "Tool use"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/writing-tools-for-agents"
+  ],
+  "moved_to": null
 }

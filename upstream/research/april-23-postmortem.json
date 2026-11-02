@@ -2,13 +2,25 @@
   "url": "https://www.anthropic.com/research/april-23-postmortem",
   "section": "research",
   "slug": "april-23-postmortem",
-  "title": "April 23 postmortem",
-  "title_source": "slug",
-  "published": null,
+  "title": "An update on recent Claude Code quality reports",
+  "title_source": "listing",
+  "published": "2026-04-23",
   "lastmod": "2026-10-18T21:26:26.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing.",
+  "subjects": [
+    "claude",
+    "understanding-ai",
+    "safety",
+    "Claude Code"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/april-23-postmortem"
+  ],
+  "moved_to": null
 }

@@ -2,13 +2,23 @@
   "url": "https://www.anthropic.com/research/contextual-retrieval",
   "section": "research",
   "slug": "contextual-retrieval",
-  "title": "Contextual retrieval",
-  "title_source": "slug",
-  "published": null,
+  "title": "Introducing Contextual Retrieval",
+  "title_source": "listing",
+  "published": "2024-09-19",
   "lastmod": "2026-10-18T21:28:11.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "For an AI model to be useful in specific contexts, it often needs access to background knowledge.",
+  "subjects": [
+    "Performance"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/contextual-retrieval",
+    "https://www.anthropic.com/news/contextual-retrieval"
+  ],
+  "moved_to": null
 }

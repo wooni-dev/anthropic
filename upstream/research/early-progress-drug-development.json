@@ -2,13 +2,23 @@
   "url": "https://www.anthropic.com/research/early-progress-drug-development",
   "section": "research",
   "slug": "early-progress-drug-development",
-  "title": "Early progress drug development",
-  "title_source": "slug",
-  "published": null,
+  "title": "Early progress on accelerating drug development with Claude",
+  "title_source": "listing",
+  "published": "2026-10-27",
   "lastmod": "2026-10-28T17:16:58.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
+  "subjects": [
+    "beneficial-deployments",
+    "anthropic",
+    "economy-and-society",
+    "Life sciences"
+  ],
+  "categories": [
+    "Science"
+  ],
   "state": "active",
   "first_seen": "2026-10-28",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

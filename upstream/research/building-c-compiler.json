@@ -2,13 +2,24 @@
   "url": "https://www.anthropic.com/research/building-c-compiler",
   "section": "research",
   "slug": "building-c-compiler",
-  "title": "Building c compiler",
-  "title_source": "slug",
-  "published": null,
+  "title": "Building a C compiler with a team of parallel Claudes",
+  "title_source": "listing",
+  "published": "2026-02-05",
   "lastmod": "2026-10-18T21:26:18.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "Nicholas Carlini, a researcher on our Safeguards team, explains how he tasked 16 agents with writing a Rust-based C compiler, from scratch, capable of compiling the Linux kernel.",
+  "subjects": [
+    "understanding-ai",
+    "claude",
+    "Agents"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/building-c-compiler"
+  ],
+  "moved_to": null
 }

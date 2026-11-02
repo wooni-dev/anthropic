@@ -2,13 +2,25 @@
   "url": "https://www.anthropic.com/research/how-we-contain-claude",
   "section": "research",
   "slug": "how-we-contain-claude",
-  "title": "How we contain claude",
-  "title_source": "slug",
-  "published": null,
+  "title": "How we contain Claude across products",
+  "title_source": "listing",
+  "published": "2026-05-25",
   "lastmod": "2026-10-18T21:26:24.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
+  "subjects": [
+    "safety",
+    "understanding-ai",
+    "claude",
+    "Safeguards"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/how-we-contain-claude"
+  ],
+  "moved_to": null
 }

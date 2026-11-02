@@ -2,13 +2,18 @@
   "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
   "section": "research",
   "slug": "discovering-vulnerabilities-with-claude",
-  "title": "Discovering vulnerabilities with claude",
-  "title_source": "slug",
-  "published": null,
+  "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude",
+  "title_source": "page",
+  "published": "2026-10-27",
   "lastmod": "2026-10-30T15:24:16.000Z",
-  "summary": null,
+  "summary": "Over the past few months, we’ve used an unreleased, internal research model to find critical vulnerabilities in some of the world’s most widely used software, such as browsers and operating systems. In this post, we share details of five attack chains, which led to remote code execution and other critical impacts with little to no user interaction.",
   "subjects": [],
+  "categories": [
+    "Frontier Red Team"
+  ],
   "state": "active",
   "first_seen": "2026-10-28",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

@@ -2,13 +2,25 @@
   "url": "https://www.anthropic.com/research/AI-resistant-technical-evaluations",
   "section": "research",
   "slug": "AI-resistant-technical-evaluations",
-  "title": "AI resistant technical evaluations",
-  "title_source": "slug",
-  "published": null,
+  "title": "Designing AI-resistant technical evaluations",
+  "title_source": "listing",
+  "published": "2026-01-21",
   "lastmod": "2026-10-18T19:58:11.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "What we learned from three iterations of a performance engineering take-home that Claude keeps beating.",
+  "subjects": [
+    "understanding-ai",
+    "economy-and-society",
+    "claude",
+    "Coding"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations"
+  ],
+  "moved_to": null
 }

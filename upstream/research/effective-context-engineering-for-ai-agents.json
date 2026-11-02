@@ -2,13 +2,24 @@
   "url": "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents",
   "section": "research",
   "slug": "effective-context-engineering-for-ai-agents",
-  "title": "Effective context engineering for ai agents",
-  "title_source": "slug",
-  "published": null,
+  "title": "Effective context engineering for AI agents",
+  "title_source": "listing",
+  "published": "2025-09-29",
   "lastmod": "2026-10-18T21:28:08.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "We explore the emerging art of context engineering and offer a refined mental model for building steerable, effective agents.",
+  "subjects": [
+    "understanding-ai",
+    "claude",
+    "Context engineering"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+  ],
+  "moved_to": null
 }

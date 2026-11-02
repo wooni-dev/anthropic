@@ -8,9 +8,18 @@
   "lastmod": "2026-10-09T06:10:21.000Z",
   "summary": null,
   "subjects": [
-    "Announcements"
+    "policy",
+    "understanding-ai",
+    "safety",
+    "anthropic",
+    "Privacy"
+  ],
+  "categories": [
+    "Engineering"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

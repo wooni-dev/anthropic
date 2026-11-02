@@ -8,7 +8,10 @@
   "lastmod": "2026-10-14T04:53:09.000Z",
   "summary": "In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.",
   "subjects": [],
+  "categories": [],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

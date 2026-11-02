@@ -8,9 +8,16 @@
   "lastmod": "2026-10-07T21:42:45.000Z",
   "summary": "We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.",
   "subjects": [
+    "safety",
+    "understanding-ai",
+    "Alignment"
+  ],
+  "categories": [
     "Alignment"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

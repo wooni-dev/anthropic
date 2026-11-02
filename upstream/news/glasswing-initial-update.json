@@ -2,13 +2,22 @@
   "url": "https://www.anthropic.com/news/glasswing-initial-update",
   "section": "news",
   "slug": "glasswing-initial-update",
-  "title": "Glasswing initial update",
-  "title_source": "slug",
-  "published": null,
+  "title": "Project Glasswing: An initial update",
+  "title_source": "listing",
+  "published": "2026-05-22",
   "lastmod": "2026-09-28T03:21:25.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "An early update on what we've learned from Project Glasswing.",
+  "subjects": [
+    "Announcements"
+  ],
+  "categories": [
+    "Security"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/research/glasswing-initial-update"
+  ],
+  "moved_to": null
 }

@@ -2,13 +2,21 @@
   "url": "https://www.anthropic.com/research/political-even-handedness",
   "section": "research",
   "slug": "political-even-handedness",
-  "title": "Political even handedness",
-  "title_source": "slug",
-  "published": null,
+  "title": "Measuring political bias in Claude",
+  "title_source": "listing",
+  "published": "2025-11-13",
   "lastmod": "2026-10-23T20:56:23.000Z",
   "summary": null,
-  "subjects": [],
+  "subjects": [
+    "Product",
+    "Societal Impacts"
+  ],
+  "categories": [],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/news/political-even-handedness"
+  ],
+  "moved_to": null
 }

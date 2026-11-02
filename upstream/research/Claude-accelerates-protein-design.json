@@ -8,9 +8,18 @@
   "lastmod": "2026-10-08T23:27:09.000Z",
   "summary": "In this post, we share two results that show how Claude can help life scientists increase the pace of their research.",
   "subjects": [
+    "beneficial-deployments",
+    "claude",
+    "economy-and-society",
+    "understanding-ai",
+    "Life sciences"
+  ],
+  "categories": [
     "Science"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

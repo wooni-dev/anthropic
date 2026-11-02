@@ -2,13 +2,24 @@
   "url": "https://www.anthropic.com/research/code-execution-with-mcp",
   "section": "research",
   "slug": "code-execution-with-mcp",
-  "title": "Code execution with mcp",
-  "title_source": "slug",
-  "published": null,
+  "title": "Code execution with MCP: Building more efficient agents",
+  "title_source": "listing",
+  "published": "2025-11-04",
   "lastmod": "2026-10-18T21:26:15.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "Direct tool calls consume context for each definition and result. Agents scale better by writing code to call tools instead. Here's how it works with MCP.",
+  "subjects": [
+    "claude",
+    "understanding-ai",
+    "Model Context Protocol"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/code-execution-with-mcp"
+  ],
+  "moved_to": null
 }

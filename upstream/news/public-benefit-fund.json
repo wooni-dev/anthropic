@@ -7,8 +7,18 @@
   "published": "2026-10-18",
   "lastmod": "2026-10-21T11:37:13.000Z",
   "summary": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows.",
-  "subjects": [],
+  "subjects": [
+    "anthropic",
+    "economy-and-society",
+    "beneficial-deployments",
+    "Funding"
+  ],
+  "categories": [
+    "announcements"
+  ],
   "state": "active",
   "first_seen": "2026-10-19",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

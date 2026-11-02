@@ -7,8 +7,18 @@
   "published": "2026-10-08",
   "lastmod": "2026-10-14T16:52:01.000Z",
   "summary": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.",
-  "subjects": [],
+  "subjects": [
+    "policy",
+    "safety",
+    "understanding-ai",
+    "Limits on abuse"
+  ],
+  "categories": [
+    "policy"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

@@ -7,8 +7,18 @@
   "published": "2026-10-06",
   "lastmod": "2026-10-14T05:06:10.000Z",
   "summary": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-  "subjects": [],
+  "subjects": [
+    "understanding-ai",
+    "beneficial-deployments",
+    "safety",
+    "Cybersecurity"
+  ],
+  "categories": [
+    "announcements"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

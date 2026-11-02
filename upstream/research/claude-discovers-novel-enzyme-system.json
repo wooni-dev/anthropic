@@ -2,13 +2,23 @@
   "url": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
   "section": "research",
   "slug": "claude-discovers-novel-enzyme-system",
-  "title": "Claude discovers novel enzyme system",
-  "title_source": "slug",
-  "published": null,
+  "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+  "title_source": "listing",
+  "published": "2026-09-23",
   "lastmod": "2026-10-28T04:28:01.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.",
+  "subjects": [
+    "beneficial-deployments",
+    "understanding-ai",
+    "anthropic",
+    "Life sciences"
+  ],
+  "categories": [],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+  ],
+  "moved_to": null
 }

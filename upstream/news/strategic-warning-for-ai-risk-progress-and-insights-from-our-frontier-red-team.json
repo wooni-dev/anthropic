@@ -10,7 +10,10 @@
   "subjects": [
     "Policy"
   ],
-  "state": "removed",
+  "categories": [],
+  "state": "moved",
   "first_seen": "2026-10-10",
-  "removed_at": "2026-10-21"
+  "removed_at": "2026-10-21",
+  "moved_from": [],
+  "moved_to": "https://www.anthropic.com/research/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team"
 }

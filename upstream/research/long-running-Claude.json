@@ -2,13 +2,18 @@
   "url": "https://www.anthropic.com/research/long-running-claude",
   "section": "research",
   "slug": "long-running-claude",
-  "title": "Long running claude",
-  "title_source": "slug",
-  "published": null,
+  "title": "Long-running Claude for scientific computing",
+  "title_source": "listing",
+  "published": "2026-03-23",
   "lastmod": "2026-10-09T17:03:29.000Z",
   "summary": null,
   "subjects": [],
+  "categories": [
+    "Science"
+  ],
   "state": "active",
   "first_seen": "2026-10-22",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

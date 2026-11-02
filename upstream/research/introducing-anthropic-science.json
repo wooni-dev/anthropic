@@ -10,7 +10,12 @@
   "subjects": [
     "Science"
   ],
+  "categories": [
+    "Science"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

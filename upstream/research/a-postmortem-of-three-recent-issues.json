@@ -3,12 +3,24 @@
   "section": "research",
   "slug": "a-postmortem-of-three-recent-issues",
   "title": "A postmortem of three recent issues",
-  "title_source": "slug",
-  "published": null,
+  "title_source": "listing",
+  "published": "2025-09-17",
   "lastmod": "2026-10-18T21:27:52.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "A technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing.",
+  "subjects": [
+    "safety",
+    "claude",
+    "policy",
+    "Transparency"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues"
+  ],
+  "moved_to": null
 }

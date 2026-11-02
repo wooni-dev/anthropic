@@ -2,13 +2,23 @@
   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
   "section": "research",
   "slug": "claude-scorpion-toxin-binder-design",
-  "title": "Claude scorpion toxin binder design",
-  "title_source": "slug",
-  "published": null,
+  "title": "How Claude designed protein binders against scorpion neurotoxins",
+  "title_source": "listing",
+  "published": "2026-10-20",
   "lastmod": "2026-10-20T16:04:01.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.",
+  "subjects": [
+    "beneficial-deployments",
+    "understanding-ai",
+    "anthropic",
+    "Life sciences"
+  ],
+  "categories": [
+    "Science"
+  ],
   "state": "active",
   "first_seen": "2026-10-21",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

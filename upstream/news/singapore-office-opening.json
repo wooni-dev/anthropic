@@ -7,8 +7,19 @@
   "published": "2026-10-14",
   "lastmod": "2026-10-17T05:44:50.000Z",
   "summary": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.",
-  "subjects": [],
+  "subjects": [
+    "anthropic",
+    "policy",
+    "understanding-ai",
+    "economy-and-society",
+    "Global expansion"
+  ],
+  "categories": [
+    "announcements"
+  ],
   "state": "active",
   "first_seen": "2026-10-15",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

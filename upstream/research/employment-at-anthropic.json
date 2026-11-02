@@ -8,9 +8,16 @@
   "lastmod": "2026-10-23T20:56:24.000Z",
   "summary": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.",
   "subjects": [
+    "economy-and-society",
+    "understanding-ai",
+    "Labor market"
+  ],
+  "categories": [
     "Economics"
   ],
   "state": "active",
   "first_seen": "2026-10-17",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

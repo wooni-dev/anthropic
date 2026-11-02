@@ -2,13 +2,23 @@
   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
   "section": "research",
   "slug": "alignment-assessment-ukaisi",
-  "title": "Alignment assessment ukaisi",
-  "title_source": "slug",
-  "published": null,
+  "title": "An alignment assessment of the UK AISI cybertesting incident",
+  "title_source": "listing",
+  "published": "2026-10-23",
   "lastmod": "2026-10-23T14:51:41.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Claude Mythos 5 further, to understand what they reveal about the model’s alignment.",
+  "subjects": [
+    "safety",
+    "understanding-ai",
+    "anthropic",
+    "Alignment"
+  ],
+  "categories": [
+    "Alignment"
+  ],
   "state": "active",
   "first_seen": "2026-10-24",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

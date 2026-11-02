@@ -8,9 +8,16 @@
   "lastmod": "2026-10-08T16:24:18.000Z",
   "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
   "subjects": [
+    "safety",
+    "understanding-ai",
+    "Alignment"
+  ],
+  "categories": [
     "Alignment"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

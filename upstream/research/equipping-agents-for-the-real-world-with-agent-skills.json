@@ -2,13 +2,24 @@
   "url": "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills",
   "section": "research",
   "slug": "equipping-agents-for-the-real-world-with-agent-skills",
-  "title": "Equipping agents for the real world with agent skills",
-  "title_source": "slug",
-  "published": null,
+  "title": "Equipping agents for the real world with Agent Skills",
+  "title_source": "listing",
+  "published": "2025-10-16",
   "lastmod": "2026-10-18T21:26:58.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents using files and folders.",
+  "subjects": [
+    "claude",
+    "understanding-ai",
+    "Agent Skills"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills"
+  ],
+  "moved_to": null
 }

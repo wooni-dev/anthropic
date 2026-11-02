@@ -8,9 +8,17 @@
   "lastmod": "2026-10-14T04:10:16.000Z",
   "summary": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.",
   "subjects": [
+    "beneficial-deployments",
+    "understanding-ai",
+    "anthropic",
+    "Discovery"
+  ],
+  "categories": [
     "Science"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

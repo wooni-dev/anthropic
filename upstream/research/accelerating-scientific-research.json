@@ -2,13 +2,23 @@
   "url": "https://www.anthropic.com/research/accelerating-scientific-research",
   "section": "research",
   "slug": "accelerating-scientific-research",
-  "title": "Accelerating scientific research",
-  "title_source": "slug",
-  "published": null,
+  "title": "How scientists are using Claude to accelerate research and discovery",
+  "title_source": "listing",
+  "published": "2026-01-15",
   "lastmod": "2026-10-18T21:24:36.000Z",
   "summary": null,
-  "subjects": [],
+  "subjects": [
+    "Case Study",
+    "Beneficial Deployments"
+  ],
+  "categories": [
+    "Science"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/news/accelerating-scientific-research"
+  ],
+  "moved_to": null
 }

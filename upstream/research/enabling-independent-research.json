@@ -8,9 +8,18 @@
   "lastmod": "2026-10-31T02:38:41.000Z",
   "summary": "We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.",
   "subjects": [
+    "economy-and-society",
+    "anthropic",
+    "policy",
+    "safety",
+    "How people use AI"
+  ],
+  "categories": [
     "Societal Impacts"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

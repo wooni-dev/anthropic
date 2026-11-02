@@ -2,13 +2,20 @@
   "url": "https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship",
   "section": "research",
   "slug": "how-people-use-claude-for-support-advice-and-companionship",
-  "title": "How people use claude for support advice and companionship",
-  "title_source": "slug",
-  "published": null,
+  "title": "How people use Claude for support, advice, and companionship",
+  "title_source": "listing",
+  "published": "2025-06-27",
   "lastmod": "2026-10-19T23:05:50.000Z",
   "summary": null,
-  "subjects": [],
+  "subjects": [
+    "Societal Impacts"
+  ],
+  "categories": [],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship"
+  ],
+  "moved_to": null
 }

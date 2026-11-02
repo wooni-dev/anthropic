@@ -7,8 +7,18 @@
   "published": "2026-10-21",
   "lastmod": "2026-10-21T18:22:03.000Z",
   "summary": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observational cosmology and precision measurement.",
-  "subjects": [],
+  "subjects": [
+    "anthropic",
+    "safety",
+    "beneficial-deployments",
+    "Leadership"
+  ],
+  "categories": [
+    "announcements"
+  ],
   "state": "active",
   "first_seen": "2026-10-22",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

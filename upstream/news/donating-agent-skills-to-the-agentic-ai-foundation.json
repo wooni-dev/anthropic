@@ -7,8 +7,18 @@
   "published": "2026-10-22",
   "lastmod": "2026-10-22T17:48:51.000Z",
   "summary": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.",
-  "subjects": [],
+  "subjects": [
+    "claude",
+    "anthropic",
+    "understanding-ai",
+    "Agent Skills"
+  ],
+  "categories": [
+    "product"
+  ],
   "state": "active",
   "first_seen": "2026-10-23",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

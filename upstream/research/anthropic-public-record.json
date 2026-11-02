@@ -2,13 +2,22 @@
   "url": "https://www.anthropic.com/research/anthropic-public-record",
   "section": "research",
   "slug": "anthropic-public-record",
-  "title": "Anthropic public record",
-  "title_source": "slug",
-  "published": null,
+  "title": "Results from the first Anthropic Public Record",
+  "title_source": "listing",
+  "published": "2026-06-12",
   "lastmod": "2026-10-23T20:56:17.000Z",
   "summary": null,
-  "subjects": [],
+  "subjects": [
+    "Announcements"
+  ],
+  "categories": [
+    "Societal Impacts"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/news/anthropic-public-record"
+  ],
+  "moved_to": null
 }

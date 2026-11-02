@@ -8,9 +8,16 @@
   "lastmod": "2026-10-17T05:44:23.000Z",
   "summary": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.",
   "subjects": [
+    "safety",
+    "understanding-ai",
+    "Alignment"
+  ],
+  "categories": [
     "Alignment"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

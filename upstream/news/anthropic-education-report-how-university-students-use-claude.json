@@ -11,7 +11,10 @@
     "Announcements",
     "Societal Impacts"
   ],
-  "state": "removed",
+  "categories": [],
+  "state": "moved",
   "first_seen": "2026-10-10",
-  "removed_at": "2026-10-21"
+  "removed_at": "2026-10-21",
+  "moved_from": [],
+  "moved_to": "https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude"
 }

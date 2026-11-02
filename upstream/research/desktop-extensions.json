@@ -2,13 +2,24 @@
   "url": "https://www.anthropic.com/research/desktop-extensions",
   "section": "research",
   "slug": "desktop-extensions",
-  "title": "Desktop extensions",
-  "title_source": "slug",
-  "published": null,
+  "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop",
+  "title_source": "listing",
+  "published": "2025-06-26",
   "lastmod": "2026-10-13T18:13:32.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "Today, we're introducing Desktop Extensions—a new packaging format that makes installing MCP servers as simple as clicking a button.",
+  "subjects": [
+    "claude",
+    "anthropic",
+    "Model Context Protocol"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/desktop-extensions"
+  ],
+  "moved_to": null
 }

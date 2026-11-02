@@ -8,9 +8,18 @@
   "lastmod": "2026-10-08T22:29:24.000Z",
   "summary": "Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suited to the capabilities of the current generation of LLM tools. This led him to build BootLoops, a toolkit for exact calculations in quantitative science, which he has been applying across scientific fields alongside experts.",
   "subjects": [
+    "beneficial-deployments",
+    "understanding-ai",
+    "anthropic",
+    "claude",
+    "Discovery"
+  ],
+  "categories": [
     "Science"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

@@ -8,9 +8,18 @@
   "lastmod": "2026-10-23T20:56:29.000Z",
   "summary": "We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI.",
   "subjects": [
+    "economy-and-society",
+    "policy",
+    "safety",
+    "anthropic",
+    "How people use AI"
+  ],
+  "categories": [
     "Societal Impacts"
   ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

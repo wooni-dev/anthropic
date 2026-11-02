@@ -7,8 +7,18 @@
   "published": "2026-10-08",
   "lastmod": "2026-10-11T01:24:14.000Z",
   "summary": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.",
-  "subjects": [],
+  "subjects": [
+    "beneficial-deployments",
+    "policy",
+    "anthropic",
+    "Discovery"
+  ],
+  "categories": [
+    "partnerships"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

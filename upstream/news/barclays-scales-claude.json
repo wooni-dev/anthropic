@@ -7,8 +7,18 @@
   "published": "2026-10-01",
   "lastmod": "2026-10-14T16:10:37.000Z",
   "summary": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations.",
-  "subjects": [],
+  "subjects": [
+    "economy-and-society",
+    "claude",
+    "anthropic",
+    "Financial services"
+  ],
+  "categories": [
+    "announcements"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

@@ -2,13 +2,25 @@
   "url": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
   "section": "research",
   "slug": "demystifying-evals-for-ai-agents",
-  "title": "Demystifying evals for ai agents",
-  "title_source": "slug",
-  "published": null,
+  "title": "Demystifying evals for AI agents",
+  "title_source": "listing",
+  "published": "2026-01-09",
   "lastmod": "2026-10-18T21:26:21.000Z",
-  "summary": null,
-  "subjects": [],
+  "summary": "Guidance on how to design more rigorous and useful evals for agents across a range of agent architectures and use cases in real-world deployment.",
+  "subjects": [
+    "understanding-ai",
+    "economy-and-society",
+    "claude",
+    "Agents"
+  ],
+  "categories": [
+    "Engineering"
+  ],
   "state": "active",
-  "first_seen": "2026-10-21",
-  "removed_at": null
+  "first_seen": "2026-10-10",
+  "removed_at": null,
+  "moved_from": [
+    "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents"
+  ],
+  "moved_to": null
 }

@@ -7,8 +7,18 @@
   "published": "2026-10-14",
   "lastmod": "2026-10-17T05:44:51.000Z",
   "summary": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms.",
-  "subjects": [],
+  "subjects": [
+    "policy",
+    "safety",
+    "economy-and-society",
+    "Democratic integrity"
+  ],
+  "categories": [
+    "safeguards"
+  ],
   "state": "active",
   "first_seen": "2026-10-15",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }

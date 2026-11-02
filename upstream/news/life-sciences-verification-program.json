@@ -7,8 +7,20 @@
   "published": "2026-09-17",
   "lastmod": "2026-10-14T05:07:45.000Z",
   "summary": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.",
-  "subjects": [],
+  "subjects": [
+    "beneficial-deployments",
+    "safety",
+    "understanding-ai",
+    "policy",
+    "claude",
+    "Life sciences"
+  ],
+  "categories": [
+    "announcements"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
-  "removed_at": null
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
 }
