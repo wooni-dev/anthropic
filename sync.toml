@@ -1,11 +1,24 @@
 # anthropic.com 글 목록 동기화 설정
 # fetch 가 이 파일을 읽어 어떤 글을 목록(upstream/)에 넣을지 정한다.
 
-# 목록을 동기화할 섹션. URL 이 https://www.anthropic.com/<섹션>/<slug> 형태인 글만 대상이 된다.
-sections = ["engineering", "news", "research"]
+# sitemap 에서 글로 인정할 주소 섹션. URL 이 https://www.anthropic.com/<섹션>/<slug> 형태인 것만 대상이 된다.
+# 2026-10 개편으로 /engineering/<slug> 주소가 없어지고 글이 /research/<slug> 로 옮겨졌다.
+sections = ["news", "research"]
 
-# 목록에서 뺄 URL 패턴 (지금은 없음)
-exclude = []
+# 제목·날짜·분류를 읽어 올 목록 페이지. Engineering 은 이제 주소가 아니라 분류지만 목록 페이지는 살아 있다.
+listing_pages = ["engineering", "news", "research"]
 
-# 본문(페이지·이미지·CSS·폰트)까지 받아 local/ 에 보관할 섹션
-pull_sections = ["engineering"]
+# 목록에서 뺄 경로 패턴. 글처럼 생겼지만 글이 아닌 분류 페이지들.
+exclude = [
+    "/news/announcements",
+    "/news/features",
+    "/news/models",
+    "/news/partnerships",
+    "/news/policy",
+    "/news/product",
+    "/news/safeguards",
+    "/news/security",
+]
+
+# 본문(페이지·이미지·CSS·폰트)까지 받아 local/ 에 보관할 분류
+pull_categories = ["Engineering"]

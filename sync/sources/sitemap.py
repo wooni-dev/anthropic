@@ -34,6 +34,11 @@ def parse(xml_bytes):
     return out
 
 
+def is_excluded(url, exclude):
+    path = urlsplit(url).path.rstrip("/")
+    return any(fnmatch.fnmatch(path, pat) for pat in exclude)
+
+
 def select(pairs, sections, exclude=()):
     """추적 섹션의 글만 골라 dict 목록으로 돌려준다.
 
@@ -47,7 +52,7 @@ def select(pairs, sections, exclude=()):
         parts = path.strip("/").split("/")
         if len(parts) != 2 or parts[0] not in sections:
             continue
-        if any(fnmatch.fnmatch(path, pat) for pat in exclude):
+        if is_excluded(url, exclude):
             continue
         entries.append({"url": url, "section": parts[0], "slug": parts[1], "lastmod": lastmod})
     return entries

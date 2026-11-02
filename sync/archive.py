@@ -38,6 +38,16 @@ def page_path(section, slug):
     return os.path.join(ROOT, section, slug + ".html")
 
 
+def relocate(old_record, new_record):
+    """글 주소가 바뀌면 보관본도 새 섹션 폴더로 옮긴다. 이미 새 위치에 있으면 건드리지 않는다."""
+    for ext in (".html", ".md"):
+        src = os.path.join(ROOT, old_record["section"], old_record["slug"] + ext)
+        dst = os.path.join(ROOT, new_record["section"], new_record["slug"] + ext)
+        if os.path.exists(src) and not os.path.exists(dst):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            os.replace(src, dst)
+
+
 def pulled_lastmod(section, slug):
     """보관본에 적어 둔 '받을 당시의 lastmod'. 보관본이 없으면 None."""
     path = page_path(section, slug)

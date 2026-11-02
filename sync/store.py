@@ -18,15 +18,19 @@ FIELDS = [
     "section",
     "slug",
     "title",
-    "title_source",   # listing | slug  (slug = 제목을 못 얻어 주소로 임시 표기)
+    "title_source",   # listing | page | slug  (slug = 제목을 못 얻어 주소로 임시 표기)
     "published",      # YYYY-MM-DD
     "lastmod",        # sitemap 의 수정일. 바뀌면 '수정된 글'
     "summary",
     "subjects",
-    "state",          # active | removed
+    "categories",     # 사이트의 분류 (예: Engineering). 글 주소(section)와는 별개다
+    "state",          # active | removed | moved
     "first_seen",     # 처음 발견한 날. 한 번 쓰면 바꾸지 않는다
     "removed_at",     # 원격에서 사라진 것을 발견한 날
+    "moved_from",     # 이 글의 예전 주소 목록
+    "moved_to",       # state=moved 일 때 새 주소
 ]
+LIST_FIELDS = {"subjects", "categories", "moved_from"}
 
 
 def path_for(section, slug, root=ROOT):
@@ -35,8 +39,15 @@ def path_for(section, slug, root=ROOT):
 
 def dump(record):
     """레코드 → 저장할 문자열. 같은 레코드면 항상 같은 문자열."""
-    ordered = {k: record.get(k) for k in FIELDS}
+    ordered = {k: record.get(k) or ([] if k in LIST_FIELDS else record.get(k)) for k in FIELDS}
     return json.dumps(ordered, ensure_ascii=False, indent=2) + "\n"
+
+
+def delete(record, root=ROOT):
+    """레코드 파일을 지운다. 글이 아니었던 항목을 목록에서 뺄 때만 쓴다."""
+    path = path_for(record["section"], record["slug"], root)
+    if os.path.exists(path):
+        os.remove(path)
 
 
 def load_all(root=ROOT):
