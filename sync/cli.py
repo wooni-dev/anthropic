@@ -343,7 +343,7 @@ def verify(targets):
         print(f"{target}: {'통과' if r['passed'] else '불일치'}")
         print(f"  본문 일치율 {r['ratio']:.2%} (실제 {r['live_words']:,}단어 / 로컬 {r['local_words']:,}단어,"
               f" 빠짐 {r['missing_words']} · 추가 {r['extra_words']})")
-        print(f"  이미지 {r['images_ok']}/{r['images_total']} 표시 · 폰트 로드 {r['fonts_loaded']}"
+        print(f"  이미지 {r['images_ok']}/{r['images_total']} 표시 (실제 사이트 {r['images_live']}) · 폰트 로드 {r['fonts_loaded']}"
               f" (오류 {r['fonts_error']}) · 막힌 외부 요청 {r['blocked_requests']}")
         for u in r["blocked_sample"]:
             print(f"    ! {u[:120]}")

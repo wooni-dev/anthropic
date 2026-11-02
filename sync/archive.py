@@ -28,6 +28,7 @@ EXT_BY_TYPE = {
 }
 # 받아서 로컬로 바꿀 속성: <img src>, <video src/poster>, <source src>
 MEDIA_ATTR = re.compile(r'(<(?:img|video|source)\b[^>]*?\s(?:src|poster)=")([^"]+)(")', re.I)
+SVG_IMAGE = re.compile(r'(<image\b[^>]*?\shref=")([^"]+)(")', re.I)
 STYLESHEET = re.compile(r'<link\b[^>]*\brel="stylesheet"[^>]*>', re.I)
 HREF = re.compile(r'(\shref=")([^"]+)(")', re.I)
 CSS_URL = re.compile(r'url\(\s*([\'"]?)([^\'")]+)\1\s*\)')
@@ -168,6 +169,7 @@ def archive(record):
 
     # 1) 이미지·영상
     page = MEDIA_ATTR.sub(lambda m: m.group(1) + (local_ref(m.group(2)) or m.group(2)) + m.group(3), page)
+    page = SVG_IMAGE.sub(lambda m: m.group(1) + (local_ref(m.group(2)) or m.group(2)) + m.group(3), page)
 
     # 2) CSS 파일. 원격이 4xx 로 거부하는 링크는 실제 사이트에서도 깨진 것이라 지운다
     def css_link(m):

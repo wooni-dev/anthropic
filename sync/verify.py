@@ -19,6 +19,7 @@ from sync.extract import BODY_SELECTORS
 
 SHOT_DIR = os.path.join(archive.ROOT, "_verify")
 PASS_RATIO = 0.99
+IMAGES_SHOWN = "() => [...document.images].map(i => i.complete && i.naturalWidth > 0)"
 
 
 def words(text):
@@ -27,6 +28,8 @@ def words(text):
 
 def article_text(page):
     """extract 와 같은 순서로 본문 영역을 찾아 화면 텍스트를 돌려준다."""
+    # 코드 블록의 Expand 처럼 스크립트가 만드는 버튼 글자는 본문이 아니다
+    page.evaluate("() => document.querySelectorAll('button').forEach(b => b.style.display = 'none')")
     for sel in BODY_SELECTORS:
         loc = page.locator(sel)
         if loc.count():
@@ -64,6 +67,7 @@ def verify(record):
         live.wait_for_timeout(2000)
         load_lazy_images(live)
         live_text = article_text(live)
+        live_images = live.evaluate(IMAGES_SHOWN)
         live.screenshot(path=os.path.join(SHOT_DIR, name + "-live.png"), full_page=True)
 
         # 로컬 사본: http/https 요청은 전부 막고, 막힌 요청을 센다
@@ -84,7 +88,7 @@ def verify(record):
         load_lazy_images(local)
         local.wait_for_timeout(500)
         local_text = article_text(local)
-        images = local.evaluate("""() => [...document.images].map(i => i.complete && i.naturalWidth > 0)""")
+        images = local.evaluate(IMAGES_SHOWN)
         fonts = local.evaluate("""() => { const f = [...document.fonts];
             return {loaded: f.filter(x => x.status === 'loaded').length,
                     error: f.filter(x => x.status === 'error').length}; }""")
@@ -99,11 +103,12 @@ def verify(record):
     result = {
         "live_words": len(a), "local_words": len(b), "ratio": ratio,
         "missing_words": missing, "extra_words": extra,
-        "images_ok": sum(images), "images_total": len(images),
+        "images_ok": sum(images), "images_total": len(images), "images_live": sum(live_images),
         "fonts_loaded": fonts["loaded"], "fonts_error": fonts["error"],
         "blocked_requests": len(blocked), "blocked_sample": sorted(set(blocked))[:5],
         "shots": [os.path.join(SHOT_DIR, name + s) for s in ("-live.png", "-local.png")],
     }
-    result["passed"] = (ratio >= PASS_RATIO and result["images_ok"] == result["images_total"]
+    # 접힌 영역의 지연 로딩 이미지는 실제 사이트에서도 안 보이므로, 실제 사이트 이상으로 보이면 통과다
+    result["passed"] = (ratio >= PASS_RATIO and result["images_ok"] >= result["images_live"]
                         and fonts["error"] == 0 and not blocked)
     return result

@@ -17,8 +17,9 @@ from sync import archive
 # 본문에 있어도 읽을 내용이 아닌 것 (코드 복사 버튼, 아이콘 등)
 DROP = ["button", "svg", "script", "style", "noscript"]
 
-# 본문 영역을 찾는 순서. 블로그 글은 <article>, Claude Code 문서로 리디렉션되는 글은 .mdx-content
-BODY_SELECTORS = ["article", ".mdx-content", "main"]
+# 본문 영역을 찾는 순서. 2026-10 개편 후의 글은 <article> 안의 해시 붙은 *_body 영역이다.
+# (<article> 전체에는 메뉴·목차·메타 정보가 함께 들어 있다)
+BODY_SELECTORS = ['article [class*="_body"]', "article", ".mdx-content", "main"]
 
 
 def find_body(soup):
@@ -78,7 +79,15 @@ def extract(record):
     for tag in body.find_all(DROP):
         tag.decompose()
 
-    md = Converter(heading_style="ATX", bullets="-", strong_em_symbol="*").convert_soup(body)
+    convert = Converter(heading_style="ATX", bullets="-", strong_em_symbol="*").convert_soup
+    md = convert(body)
+    # 끝의 저자·감사 섹션은 본문 영역 밖에 있지만 글의 일부이므로 뒤에 붙인다
+    article = soup.find("article")
+    if article is not None and article.find(class_=lambda c: c and c.endswith("_body")):
+        for section in article.find_all("section", recursive=False):
+            for tag in section.find_all(DROP):
+                tag.decompose()
+            md += "\n\n" + convert(section)
     md = "\n".join(line.rstrip() for line in md.strip().splitlines())
     while "\n\n\n" in md:
         md = md.replace("\n\n\n", "\n\n")
