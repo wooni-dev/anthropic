@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/provable-inference",
+  "section": "research",
+  "slug": "provable-inference",
+  "title": "Progress on provable inference for large language models",
+  "title_source": "listing",
+  "published": "2026-11-02",
+  "lastmod": "2026-11-03T10:44:38.000Z",
+  "summary": "We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.",
+  "subjects": [],
+  "categories": [
+    "Frontier Red Team"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-04",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}
