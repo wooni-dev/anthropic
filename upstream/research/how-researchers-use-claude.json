@@ -1,0 +1,24 @@
+{
+  "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+  "section": "research",
+  "slug": "how-researchers-use-claude",
+  "title": "AI for scientific discovery: How researchers use Claude",
+  "title_source": "listing",
+  "published": "2026-11-05",
+  "lastmod": "2026-11-05T16:54:05.000Z",
+  "summary": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.",
+  "subjects": [
+    "beneficial-deployments",
+    "economy-and-society",
+    "claude",
+    "Discovery"
+  ],
+  "categories": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-06",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}
