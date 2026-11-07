@@ -5,7 +5,7 @@
   "title": "Investigating vault particles with Claude",
   "title_source": "listing",
   "published": "2026-11-04",
-  "lastmod": "2026-11-05T18:59:13.000Z",
+  "lastmod": "2026-11-06T01:53:44.000Z",
   "summary": "We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.",
   "subjects": [
     "beneficial-deployments",

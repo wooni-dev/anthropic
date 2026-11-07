@@ -1,0 +1,23 @@
+{
+  "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+  "section": "research",
+  "slug": "teaching-ai-to-build-scientific-models",
+  "title": "Teaching AI to build scientific models",
+  "title_source": "listing",
+  "published": "2026-11-06",
+  "lastmod": "2026-11-06T20:33:15.000Z",
+  "summary": "In this guest post, Jakob Macke, Daniel Gedon, and Stefan Wahl discuss how AI is starting to change the scientific modeling process, from construction to interpretation.",
+  "subjects": [
+    "beneficial-deployments",
+    "anthropic",
+    "Discovery"
+  ],
+  "categories": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-07",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}

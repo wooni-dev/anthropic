@@ -1,0 +1,22 @@
+{
+  "url": "https://www.anthropic.com/research/components-of-agent-memory",
+  "section": "research",
+  "slug": "components-of-agent-memory",
+  "title": "The components of agent memory",
+  "title_source": "listing",
+  "published": "2026-11-06",
+  "lastmod": "2026-11-06T21:15:32.000Z",
+  "summary": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+  "subjects": [
+    "understanding-ai",
+    "Agents"
+  ],
+  "categories": [
+    "Engineering"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-07",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}

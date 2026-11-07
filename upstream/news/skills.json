@@ -11,9 +11,9 @@
     "Product"
   ],
   "categories": [],
-  "state": "active",
+  "state": "removed",
   "first_seen": "2026-10-10",
-  "removed_at": null,
+  "removed_at": "2026-11-07",
   "moved_from": [],
   "moved_to": null
 }

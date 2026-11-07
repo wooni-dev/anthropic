@@ -5,8 +5,8 @@
   "title": "AI for scientific discovery: How researchers use Claude",
   "title_source": "listing",
   "published": "2026-11-05",
-  "lastmod": "2026-11-05T16:54:05.000Z",
-  "summary": "In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.",
+  "lastmod": "2026-11-06T15:55:34.000Z",
+  "summary": "We analyzed 207,000 research sessions to learn how Claude is used in science, why some tasks get more use than others, and how AI could speed up discovery.",
   "subjects": [
     "beneficial-deployments",
     "economy-and-society",
