@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/claude-electronics-design",
+  "section": "research",
+  "slug": "claude-electronics-design",
+  "title": "Testing Claude on real-world electronics design",
+  "title_source": "listing",
+  "published": "2026-11-09",
+  "lastmod": "2026-11-09T18:51:01.000Z",
+  "summary": "We asked Claude Fable 5.2 to design three electronic devices from short prompts: a speakerphone, a voice-assistant hub, and a handheld virtual pet. Diode Computers built working prototypes from its files.",
+  "subjects": [],
+  "categories": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-11",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}
