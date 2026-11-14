@@ -5,7 +5,7 @@
   "title": "How we contain Claude across products",
   "title_source": "listing",
   "published": "2026-05-25",
-  "lastmod": "2026-10-18T21:26:24.000Z",
+  "lastmod": "2026-11-13T17:02:43.432Z",
   "summary": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment for claude.ai, Claude Code, and Cowork.",
   "subjects": [
     "safety",

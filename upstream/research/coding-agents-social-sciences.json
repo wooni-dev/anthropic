@@ -5,12 +5,14 @@
   "title": "Coding agents in the social sciences",
   "title_source": "listing",
   "published": "2026-05-27",
-  "lastmod": "2026-10-28T04:28:52.000Z",
+  "lastmod": "2026-11-13T17:02:43.420Z",
   "summary": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
   "subjects": [
     "Economics"
   ],
-  "categories": [],
+  "categories": [
+    "Societal Impacts"
+  ],
   "state": "active",
   "first_seen": "2026-10-10",
   "removed_at": null,

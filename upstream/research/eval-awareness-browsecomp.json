@@ -5,7 +5,7 @@
   "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
   "title_source": "listing",
   "published": "2026-03-06",
-  "lastmod": "2026-10-18T21:26:35.000Z",
+  "lastmod": "2026-11-13T17:02:43.423Z",
   "summary": "Evaluating Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments.",
   "subjects": [
     "understanding-ai",
