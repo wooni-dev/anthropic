@@ -1,0 +1,23 @@
+{
+  "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+  "section": "research",
+  "slug": "claude-black-hole-physics",
+  "title": "Claude solves two open problems in the physics of black holes",
+  "title_source": "listing",
+  "published": "2026-11-17",
+  "lastmod": "2026-11-18T21:42:44.116Z",
+  "summary": "Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.",
+  "subjects": [
+    "beneficial-deployments",
+    "understanding-ai",
+    "Discovery"
+  ],
+  "categories": [
+    "Science"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-19",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}
