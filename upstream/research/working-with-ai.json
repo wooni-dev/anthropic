@@ -1,0 +1,23 @@
+{
+  "url": "https://www.anthropic.com/research/working-with-ai",
+  "section": "research",
+  "slug": "working-with-ai",
+  "title": "Working with AI",
+  "title_source": "listing",
+  "published": "2026-11-23",
+  "lastmod": "2026-11-23T22:13:27.525Z",
+  "summary": "We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.",
+  "subjects": [
+    "economy-and-society",
+    "claude",
+    "Labor market"
+  ],
+  "categories": [
+    "Economics"
+  ],
+  "state": "active",
+  "first_seen": "2026-11-24",
+  "removed_at": null,
+  "moved_from": [],
+  "moved_to": null
+}
